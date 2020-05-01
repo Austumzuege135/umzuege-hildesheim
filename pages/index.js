@@ -1,209 +1,480 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/zeit/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+const Home = () => (
+  <div>
+    <Head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta
+        name="description"
+        content="Aust Umzüge & Haushaltsauflösungen ist Ihre verlässlicher Partner, wenn es rund um Umzüge geht"
+      />
+      <link async rel="stylesheet" href="assets/css/style.css" />
+      <link
+        async
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/static/img/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/static/img/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/static/img/favicon-16x16.png"
+      />
+      <link rel="manifest" href="/static/img/site.webmanifest" />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="theme-color" content="#ffffff" />
+      <link rel="preload" href="/static/css/style.css" rel="stylesheet" />
+    </Head>
+    <header>
+      <h1 class="logo">
+        <a href="/" title="Startseite">
+          <img
+            class="logo-pic"
+            src="/static/img/logo.jpg"
+            alt="Logo Ihrer Umzugsfirma"
+          />
         </a>
-      </footer>
+      </h1>
 
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+      <nav>
+        <ul>
+          <li>
+            <a href="/" title="Startseite">
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/leistungen"
+              title="Unsere Leistungen für Umzüge und Haushaltsauflösungen"
+            >
+              Leistungen
+            </a>
+          </li>
+          <li>
+            <a href="/bewertungen" title="Bewertungen unserer Kunden">
+              Bewertungen
+            </a>
+          </li>
+          <li>
+            <a href="/ratgeber" title="Unser Ratgeber für Ihren Umzug">
+              Ratgeber
+            </a>
+          </li>
+          <li>
+            <a href="/kontakt" title="Ihr Kontakt zu Ihrem Partner für Umzüge">
+              Kontakt
+            </a>
+          </li>
+          <li>
+            <a
+              href="kostenloses-angebot.html"
+              title="Ihr kostenloses Angebot"
+              class="button"
+            >
+              Kostenloses Angebot
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+    <div class="kontakt">
+      <div class="wrapper">
+        <b>
+          Haben Sie Fragen?
+          <a
+            href="tel:05121- 7558379"
+            title="Rufen Sie uns unverbindlich an - Hier klicken"
+          >
+            05121- 7558379{" "}
+          </a>
+          | Montag - Freitag von 09:00 - 19:00 Uhr
+        </b>
+      </div>
     </div>
-  )
-}
+
+    <div class="hero-head-index">
+      <div class="heading">
+        <h1>UMZIEHEN OHNE STRESS</h1>
+        <p>PROFESSIONELL UND KOMPETENT</p>
+      </div>
+    </div>
+    <div class="seperator">
+      <h3>
+        <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
+          <img
+            src="/static/img/message-icon.png"
+            alt="Schreiben Sie uns eine Nachricht"
+          />
+          Kostenloses Angebot erhalten
+        </a>
+      </h3>
+    </div>
+    <section class="content">
+      <div class="wrapper">
+        <div class="card">
+          <div class="holder">
+            <h2>Über Uns</h2>
+            <br />
+            <h3>Wir realisieren Ihren Umzug in Hildesheim und Umgebung</h3>
+            <br />
+            <br />
+            <p>
+              Sie planen gerade Ihren Umzug und wissen nicht, womit Sie zuerst
+              beginnen sollen? Es gibt jede Menge zu planen und organisieren.
+              Doch keine Sorge, Ihren Umzug müssen Sie nicht alleine
+              bewerkstelligen. Wir von Aust Umzüge organisieren und erledigen
+              Ihren Umzug in Hildesheim und Umgebung für Sie. Ein Umzug kostet
+              viel Zeit und bedarf ein wenig Organisationsgeschick. Denn eine
+              gute Planung und Organisation im Vorfeld spart Ihnen am Ende nicht
+              nur Zeit ein, sondern auch viel Geld. Ein Umzug sollte gut
+              durchdacht und geplant sein, damit am Umzugstag selbst alles glatt
+              läuft und innerhalb des Zeitplans. Planen Sie Ihren Umzug mit uns
+              und sparen Sie sich unnötige Kosten und Stress bei Ihrem Umzug.
+            </p>
+            <br />
+            <br />
+            <h3>Ihr professionelles Umzugsunternehmen aus Hildesheim</h3>
+            <br />
+            <br />
+            <p>
+              Wir sind die Profis in Sachen Umzug! Aust Umzüge bietet Ihnen
+              einen erstklassigen Umzugsservice mit einem fleißigen und
+              freundlichen Umzugsteam. Dank unserer jahrelangen Erfahrung, einem
+              verlässlichen und eingespielten Team erledigen wir Ihren Umzug
+              sicher und garantiert innerhalb der vorgegebenen Zeit. Wir sind in
+              Sachen Umzug Ihr zuverlässiger Ansprechpartner. Denn wir
+              überzeugen nicht nur mit Leistung und einem hervorragenden
+              Service, sondern auch mit niedrigen Preisen!
+            </p>
+            <br />
+            <br />
+            <h3>Was wir für Sie erledigen</h3>
+            <br />
+            <br />
+            <p>
+              Unser erfahrenes und perfekt aufeinander eingespieltes Umzugsteam
+              verpackt Ihr Hab und Gut, sichert Möbelstücke und transportiert
+              alles von der alten Adresse zu Ihrer neuen Wohnanschrift. Dort
+              entladen wir dann alles und bringen das Umzugsgut sicher an seinen
+              Bestimmungsort. Auf Wunsch entsorgen wir auch gleich die Dinge,
+              die Sie nicht mehr benötigen. Günstiges Verpackungsmaterial, wie
+              Umzugskartons, Kleiderboxen, Packpapier, Luftpolsterfolie und
+              Packband, erhalten Sie ebenfalls bei uns. Verschaffen Sie sich
+              online bei Aust Umzüge einen Überblick. Gerne kommen wir auch zu
+              Ihnen und verschaffen uns vor Ort einen Überblick über die
+              Gegebenheiten und die Menge an Umzugsgut, um Ihnen dann kostenlos
+              ein unverbindliches und maßgeschneidertes Angebot zu erstellen.
+              Nehmen Sie dazu einfach mit uns Kontakt auf. Per Telefon, E-Mail
+              oder online über das Kontaktformular auf unserer Homepage. Wir
+              freuen uns auf Ihren Kontakt und Ihren Umzug in Hildesheim!
+            </p>
+            <br />
+            <br />
+          </div>
+          <div class="uber-uns">
+            <img
+              class="images"
+              src="/static/img/uber-uns.jpg"
+              alt="Über unsere Firma"
+            />
+          </div>
+        </div>
+        <div class="angebot">
+          <h2>
+            Kostenloses Angebot
+            <br />
+            erhalten
+          </h2>
+          <br />
+          <br />
+          <br />
+          <a
+            href="kostenloses-angebot.html"
+            title="Ihr kostenloses Angebot für Ihren Umzug"
+            class="button"
+          >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zum
+            Angebot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </a>
+          <br />
+          <br />
+          <br />
+        </div>
+        <div class="card">
+          <div class="leistungen">
+            <img
+              class="images"
+              src="/static/img/umzugsleistungen.jpg"
+              alt="Unsere Leistungen für Ihren Umzug"
+            />
+          </div>
+          <div>
+            <h2>Unsere Leistungen im Überblick</h2>
+            <br />
+            <br />
+            <p>
+              Hier sehen Sie einen Auszug von unserem Leistungsangebot. Wenn Sie
+              etwas Bestimmtes suchen und nicht gleich auf Anhieb finden, so
+              kontaktieren Sie uns bitte. Wir werden Ihnen sicher behilflich
+              sein können. Wir übernehmen:
+            </p>
+            <br />
+            <br />
+            <h3>Fordern Sie Ihr kostenloses Umzugsangebot bei uns an</h3>
+            <br />
+            <br />
+            <p>
+              Was kostet ein Umzug in Hildesheim mit einer professionellen und
+              seriösen Umzugsfirma? Ein Umzug mit einem Umzugsunternehmen ist
+              oftmals günstiger, als viele annehmen. In den meisten Fällen
+              sparen Sie sogar jede Menge Geld, wenn Sie Ihren Umzug mit einer
+              Umzugsfirma realisieren. Als erfahrenes Umzugsunternehmen in
+              Hildesheim kennen wir den Markt, wissen wo es die besten Preise
+              gibt und erhalten vergünstigte Konditionen aufgrund einer
+              partnerschaftlichen und engen Zusammenarbeit. Profitieren Sie von
+              unseren günstigen Preisen. Fordern Sie dazu einfach bei uns
+              kostenlos und unverbindlich ein Angebot für Ihren Umzug an! Sie
+              erhalten bei uns nicht nur absolut faire Preise sondern auch eine
+              Festpreisgarantie. Das verschafft Ihnen finanzielle
+              Planungssicherheit bei Ihrem Umzug. Selbstverständlich bieten wir
+              Ihnen diesen Service für Umzüge aller Art und in jeder
+              Größenordnung deutschlandweit an. Worauf warten Sie also noch?
+            </p>
+            <br />
+            <br />
+            <h3>Sie haben Fragen?</h3>
+            <br />
+            <br />
+            <p>
+              Falls Sie Fragen haben oder eine Beratung wünschen, so rufen Sie
+              uns gerne jederzeit an. Unser kompetentes Team steht Ihnen gerne
+              zur Verfügung und nimmt sich Zeit für eine umfassende Beratung,
+              rund um das Thema Umzug. Sie können uns auch gerne eine E-Mail
+              schreiben, wir werden diese umgehend und ausführlich beantworten.
+              Meta: Kostenlose und unverbindliche Angebote für Ihren Umzug in
+              Hildesheim erhalten Sie hier online bei Aust Umzüge – Ihrem
+              Umzugsunternehmen aus Hildesheim.
+            </p>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="wrapper">
+      <div class="leistungen">
+        <h2>Leistungen</h2>
+        <div class="item-holder">
+          <div class="box">
+            <img
+              src="/static/img/startseite-umzugsberatung.jpg"
+              alt="Kostenlose Beratung"
+              class="service-images"
+            />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h3>Kostenlose Beratung</h3>
+            <br />
+            <br />
+            <a
+              href="kostenloses-angebot.html"
+              title="Kostenlose Beratung"
+              class="button"
+            >
+              Kostenloses Angebot
+            </a>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div class="box">
+            <img
+              src="/static/img/startseite-einpackservice.jpg"
+              alt="Einpackservice"
+              class="service-images"
+            />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h3>Einpackservice</h3>
+            <br />
+            <br />
+            <a
+              href="leistungen/einpackservice.html"
+              title="Unser Einpackservice"
+              class="button"
+            >
+              Einpackservice
+            </a>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div class="box">
+            <img
+              src="/static/img/startseite-moebelaufbau.jpg"
+              alt="Moebelaufbau und Moebelabbau"
+              class="service-images"
+            />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h3>Möbel Ab- und Aufbau</h3>
+            <br />
+            <br />
+            <a
+              href="leistungen/demontage_der_moebel.html"
+              title="Unser Service für Möbelauf- und abbau"
+              class="button"
+            >
+              Möbelservice
+            </a>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider_small"></div>
+    <div class="wrapper">
+      <div class="footer">
+        <div>
+          <h2>Anschrift & Kontakt</h2>
+          <h3>Aust Umzüge & Haushaltsäuflösungen</h3>
+          <p>
+            Alex Aust
+            <br />
+            Ehrlicherstr. 38
+            <br />
+            31135 Hildesheim
+            <br />
+            <br />
+            Telefon: 05121 – 7558379
+            <br />
+            Mobil: 0176 – 70745281
+            <br />
+            E-Mail: info@aust-umzuege.de
+            <br />
+            <br />
+          </p>
+        </div>
+        <div>
+          <h2>Bürozeiten</h2>
+          <p>
+            Montag – Freitag: 09:00 – 19:00 Uhr <br />
+            Samstag nach Vereinbarung
+            <br />
+            Sonntag geschlossen <br />
+            <br />
+            <a href="rechtliches/impressum.html" title="Impressum">
+              Impressum
+            </a>
+            <br />
+            <br />
+            <a href="rechtliches/datenschutz.html" title="Datenschutzerklärung">
+              Datenschutzerklärung
+            </a>
+            <br />
+            <br />
+            <a href="rechtliches/agbs.html" title="Unsere AGBs">
+              AGBs
+            </a>
+            <br />
+            <br />
+          </p>
+        </div>
+        <div class="right">
+          <a
+            href="https://profis.check24.de/profil/aust-umzuge-haushaltsauflosungen/qyekqm"
+            target="_blank"
+            rel="noreferrer"
+            title="Check24 Seite"
+          >
+            <img
+              src="/static/img/check24.png"
+              alt="Check 24 Bewertungen über uns"
+              class="social"
+            />
+          </a>
+          <div>
+            <a
+              href="https://www.instagram.com/austumzuege/"
+              rel="noreferrer"
+              target="_blank"
+              title="Unsere Instagramseite"
+            >
+              <img
+                src="/static/img/instagram-icon.png"
+                class="social"
+                alt="Bild Link zu Instagram"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/Austumzuege/"
+              rel="noreferrer"
+              target="_blank"
+              title="Unsere Facebookseite"
+            >
+              <img
+                src="/static/img/facebook-icon.png"
+                class="social"
+                alt="Bild Link zu Facebook"
+              />{" "}
+            </a>
+            <br />
+            <br />
+            <a
+              href="https://www.clemensfabig.com"
+              target="_blank"
+              rel="noreferrer"
+              title="Webdesign made by Clemens Fabig"
+            >
+              Made with ❤ by Clemens Fabig
+            </a>
+            <br />
+            <br />
+            <a
+              href="rechtliches/impressum.html"
+              target="_blank"
+              rel="noreferrer"
+              title="Impressum"
+            >
+              © 2020, by Alex Aust
+            </a>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
+export default Home;
