@@ -4,8 +4,8 @@ import Head from "next/head";
 const Haushaltsaufloesungen = () => (
   <div>
     <Head></Head>
-    <div class="hero-head-haushaltsauflösung">
-      <div class="heading">
+    <div className="hero-head-haushaltsauflösung">
+      <div className="heading">
         <h1>Haushaltsauflösungen</h1>
         <p>
           Auch Auflösungen eines Haushalts sind manchmal nötig und auch das
@@ -13,7 +13,7 @@ const Haushaltsaufloesungen = () => (
         </p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -24,7 +24,7 @@ const Haushaltsaufloesungen = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -141,7 +141,7 @@ const Haushaltsaufloesungen = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../leistungen.html"
         title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
       >
@@ -153,7 +153,7 @@ const Haushaltsaufloesungen = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../kostenloses-angebot.html"
         title="Kostenlosees Angebot für Ihren Privatumzug"
       >

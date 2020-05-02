@@ -4,13 +4,13 @@ import Link from "next/link";
 const FernUndUebersee = () => (
   <div>
     <Head></Head>
-    <div class="hero-head-fernumzug">
-      <div class="heading">
+    <div className="hero-head-fernumzug">
+      <div className="heading">
         <h1>Fern- und Überseeumzüge</h1>
         <p>Wohin Ihre Träume Sie auch tragen, wir tragen Ihre Möbel</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -21,7 +21,7 @@ const FernUndUebersee = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -93,7 +93,7 @@ const FernUndUebersee = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../leistungen.html"
         title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
       >
@@ -105,7 +105,7 @@ const FernUndUebersee = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../kostenloses-angebot.html"
         title="Kostenlosees Angebot für Ihren Privatumzug"
       >

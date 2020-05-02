@@ -5,13 +5,13 @@ const Ratgeber = () => (
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
     </Head>
-    <div class="hero-head-ratgeber">
-      <div class="heading">
+    <div className="hero-head-ratgeber">
+      <div className="heading">
         <h1>WAS SOLLTEN SIE BEI EINEM UMZUG BEACHTEN?</h1>
         <p>UND ANDERE THEMEN RUND UM DAS THEMA MÖBEL</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -22,7 +22,7 @@ const Ratgeber = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -57,7 +57,7 @@ const Ratgeber = () => (
       <a
         href="blog/umzug-checkliste.html"
         title="Checkliste für Ihren Umzug"
-        class="button"
+        className="button"
       >
         Ihre Checkliste
       </a>

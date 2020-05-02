@@ -4,13 +4,13 @@ import Head from "next/head";
 const Malerarbeiten = () => (
   <div>
     <Head></Head>
-    <div class="hero-head-malerarbeiten">
-      <div class="heading">
+    <div className="hero-head-malerarbeiten">
+      <div className="heading">
         <h1>Malerarbeiten</h1>
         <p>Sorgen Sie sich mit uns nicht um etwaige Verluste Ihrer Kaution</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -21,7 +21,7 @@ const Malerarbeiten = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -92,7 +92,7 @@ const Malerarbeiten = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../leistungen.html"
         title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
       >
@@ -104,7 +104,7 @@ const Malerarbeiten = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../kostenloses-angebot.html"
         title="Kostenlosees Angebot für Ihren Privatumzug"
       >

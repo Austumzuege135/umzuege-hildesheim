@@ -4,13 +4,13 @@ import Link from "next/link";
 const Halteverbot = () => (
   <div>
     <Head></Head>
-    <div class="hero-head-halteverbot">
-      <div class="heading">
+    <div className="hero-head-halteverbot">
+      <div className="heading">
         <h1>Halteverbot</h1>
         <p>Oder sonstige Probleme erwarten Sie regelmäßig bei einem Umzug</p>
       </div>
     </div>
-    <div class="seperator">
+    <div claclassNamess="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -21,7 +21,7 @@ const Halteverbot = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -86,7 +86,7 @@ const Halteverbot = () => (
         <br />
       </p>
       <a
-        class="button"
+        className="button"
         href="../leistungen.html"
         title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
       >
@@ -98,7 +98,7 @@ const Halteverbot = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../kostenloses-angebot.html"
         title="Kostenlosees Angebot für Ihren Privatumzug"
       >

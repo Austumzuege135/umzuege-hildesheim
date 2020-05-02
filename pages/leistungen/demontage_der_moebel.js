@@ -6,8 +6,8 @@ const Demontage = () => (
     <Head>
       <title></title>
     </Head>
-    <div class="hero-head-demontage">
-      <div class="heading">
+    <div className="hero-head-demontage">
+      <div className="heading">
         <h1>Aufbau und Abbau Ihrer Möbel</h1>
         <p>
           Auch das erledigen wir gerne für Sie, sodass Sie ihren Umzug ohne
@@ -15,7 +15,7 @@ const Demontage = () => (
         </p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -26,7 +26,7 @@ const Demontage = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -94,7 +94,7 @@ const Demontage = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../leistungen.html"
         title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
       >
@@ -106,7 +106,7 @@ const Demontage = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../kostenloses-angebot.html"
         title="Kostenlosees Angebot für Ihren Privatumzug"
       >

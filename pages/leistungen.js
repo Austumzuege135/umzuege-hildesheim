@@ -4,48 +4,16 @@ import Link from "next/link";
 const Leistungen = () => (
   <div>
     <Head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta
-        name="description"
-        content="Aust Umzüge & Haushaltsauflösungen ist Ihre verlässlicher Partner, wenn es rund um Umzüge geht"
-      />
-      <link
-        async
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet"
-      />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/static/img/apple-touch-icon.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/static/img/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/static/img/favicon-16x16.png"
-      />
-      <link rel="manifest" href="/static/img/site.webmanifest" />
-      <meta name="msapplication-TileColor" content="#da532c" />
-      <meta name="theme-color" content="#ffffff" />
-      <link rel="preload" href="/static/css/style.css" rel="stylesheet" />
     </Head>
 
-    <div class="hero-head-leistungen">
-      <div class="heading">
+    <div className="hero-head-leistungen">
+      <div className="heading">
         <h1>UMZUG UND ENTRÜMPELUNG</h1>
         <p>UNSERE LEISTUNGEN IM ÜBERBLICK</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -57,12 +25,12 @@ const Leistungen = () => (
       </h3>
     </div>
 
-    <section class="customers">
+    <section className="customers">
       <h2>Umzüge, Entrümpelung und Haushaltsauflösungen</h2>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-privatumzug.jpg"
             alt="Privatumzug, stressfrei umziehen für Ihren Haushalt"
           />
@@ -88,7 +56,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="/leistungen/privatumzug">
-            <a class="button" title="Privatumzüge">
+            <a className="button" title="Privatumzüge">
               <b>Mehr zu Privatumzügen</b>
             </a>
           </Link>
@@ -99,7 +67,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -110,10 +78,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-firmenumzug.jpg"
             alt="Simple online Businesscard"
           />
@@ -137,7 +105,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/firmenumzug">
-            <a class="button" title="Firmenumzug">
+            <a className="button" title="Firmenumzug">
               <b>Mehr zu Firmenumzügen</b>
             </a>
           </Link>
@@ -148,7 +116,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -159,10 +127,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-fernumzug.jpg"
             alt="Simple online Businesscard"
           />
@@ -188,7 +156,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/fern-und-ubersee">
-            <a class="button" title="Fernumzug und Überseeumzug">
+            <a className="button" title="Fernumzug und Überseeumzug">
               <b>Mehr zu Fern und Überseeumzügen</b>
             </a>
           </Link>
@@ -199,7 +167,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -210,10 +178,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-seniorenumzug.jpg"
             alt="Simple online Businesscard"
           />
@@ -235,7 +203,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/seniorenumzug">
-            <a class="button" title="Seniorenumzug">
+            <a className="button" title="Seniorenumzug">
               <b>Mehr zu Seniorenumzug</b>
             </a>
           </Link>
@@ -246,7 +214,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -257,10 +225,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-umzugshelfer.jpg"
             alt="Simple online Businesscard"
           />
@@ -284,7 +252,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/umzugshelfer">
-            <a class="button" title="Umzugshelfer">
+            <a className="button" title="Umzugshelfer">
               <b>Mehr zu Umzugshelfern</b>
             </a>
           </Link>
@@ -295,7 +263,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -306,10 +274,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-halteverbot.jpg"
             alt="Simple online Businesscard"
           />
@@ -335,16 +303,16 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/halteverbot">
-            <a class="button" title="Halteverbot">
+            <a className="button" title="Halteverbot">
               <b>Mehr zum Thema Halteverbot</b>
             </a>
           </Link>
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-malerarbeiten.jpg"
             alt="Simple online Businesscard"
           />
@@ -373,7 +341,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/malerarbeiten">
-            <a class="button" title="Malerarbeiten">
+            <a className="button" title="Malerarbeiten">
               <b>Mehr zu den Malerarbeiten</b>
             </a>
           </Link>
@@ -384,7 +352,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -395,10 +363,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-umzugsberatung.jpg"
             alt="Simple online Businesscard"
           />
@@ -424,7 +392,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/umzugsberatung">
-            <a class="button" title="Umzugsberatung">
+            <a className="button" title="Umzugsberatung">
               <b>Mehr zu unserer Umzugsberatung</b>
             </a>
           </Link>
@@ -435,7 +403,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -446,10 +414,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-moebelaufbau.jpg"
             alt="Simple online Businesscard"
           />
@@ -474,7 +442,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/demontage_der_moebel">
-            <a class="button" title="Möbeldemontage">
+            <a className="button" title="Möbeldemontage">
               <b>Demontage Ihrer Möbel</b>
             </a>
           </Link>
@@ -485,7 +453,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -496,10 +464,10 @@ const Leistungen = () => (
           <br />
         </div>
       </div>
-      <div class="display">
+      <div className="display">
         <div>
           <img
-            class="display-img"
+            className="display-img"
             src="/static/img/leistungen-haushaltsaufloesung.jpg"
             alt="Simple online Businesscard"
           />
@@ -524,7 +492,7 @@ const Leistungen = () => (
           <br />
           <br />
           <Link href="leistungen/haushaltsaufloesungen">
-            <a class="button" title="Haushaltsauflösungen">
+            <a className="button" title="Haushaltsauflösungen">
               <b>Hier erfahren Sie mehr</b>
             </a>
           </Link>
@@ -535,7 +503,7 @@ const Leistungen = () => (
           <br />
           <Link href="/kostenloses-angebot">
             <a
-              class="button"
+              className="button"
               title="Kostenlosees Angebot für Ihren Privatumzug"
             >
               <b>Zum kostenlosen Angebot</b>
@@ -548,7 +516,7 @@ const Leistungen = () => (
       </div>
       <br />
     </section>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />

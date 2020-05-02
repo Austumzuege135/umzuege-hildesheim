@@ -4,13 +4,13 @@ import Head from "next/head";
 const Umzugshelfer = () => (
   <div>
     <Head></Head>
-    <div class="hero-head-umzugshelfer">
-      <div class="heading">
+    <div className="hero-head-umzugshelfer">
+      <div className="heading">
         <h1>Unsere Umzugshelfer</h1>
         <p>Damit Sie mit Ihrem Umzug nicht alleine im Regen stehen</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -21,7 +21,7 @@ const Umzugshelfer = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -87,7 +87,7 @@ const Umzugshelfer = () => (
         <br />
         <br />
         <a
-          class="button"
+          className="button"
           href="../leistungen.html"
           title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
         >
@@ -99,7 +99,7 @@ const Umzugshelfer = () => (
         <br />
         <br />
         <a
-          class="button"
+          className="button"
           href="../kostenloses-angebot.html"
           title="Kostenlosees Angebot für Ihren Privatumzug"
         >

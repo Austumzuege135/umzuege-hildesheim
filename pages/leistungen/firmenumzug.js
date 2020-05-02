@@ -4,15 +4,15 @@ import Head from "next/head";
 const Firmenumzug = () => (
   <div>
     <Head></Head>
-    <div class="hero-head-firmenumzug">
-      <div class="heading">
+    <div className="hero-head-firmenumzug">
+      <div className="heading">
         <h1>FIRMENUMZUG</h1>
         <p>
           SCHNELL UND STRESSFREI, DAMIT SIE SICH UM IHR BUSINESS KÜMMERN KÖNNEN
         </p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -23,7 +23,7 @@ const Firmenumzug = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -95,7 +95,7 @@ const Firmenumzug = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../leistungen.html"
         title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
       >
@@ -107,7 +107,7 @@ const Firmenumzug = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../kostenloses-angebot.html"
         title="Kostenlosees Angebot für Ihren Privatumzug"
       >

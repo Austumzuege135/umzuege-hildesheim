@@ -6,13 +6,13 @@ const Home = () => (
       <title>Aust Umzüge und Haushaltsauflösungen</title>
     </Head>
 
-    <div class="hero-head-index">
-      <div class="heading">
+    <div className="hero-head-index">
+      <div className="heading">
         <h1>UMZIEHEN OHNE STRESS</h1>
         <p>PROFESSIONELL UND KOMPETENT</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -23,10 +23,10 @@ const Home = () => (
         </a>
       </h3>
     </div>
-    <section class="content">
-      <div class="wrapper">
-        <div class="card">
-          <div class="holder">
+    <section className="content">
+      <div className="wrapper">
+        <div className="card">
+          <div className="holder">
             <h2>Über Uns</h2>
             <br />
             <h3>Wir realisieren Ihren Umzug in Hildesheim und Umgebung</h3>
@@ -85,15 +85,15 @@ const Home = () => (
             <br />
             <br />
           </div>
-          <div class="uber-uns">
+          <div className="uber-uns">
             <img
-              class="images"
+              className="images"
               src="/static/img/uber-uns.jpg"
               alt="Über unsere Firma"
             />
           </div>
         </div>
-        <div class="angebot">
+        <div className="angebot">
           <h2>
             Kostenloses Angebot
             <br />
@@ -105,7 +105,7 @@ const Home = () => (
           <a
             href="kostenloses-angebot.html"
             title="Ihr kostenloses Angebot für Ihren Umzug"
-            class="button"
+            className="button"
           >
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zum
             Angebot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -114,10 +114,10 @@ const Home = () => (
           <br />
           <br />
         </div>
-        <div class="card">
-          <div class="leistungen">
+        <div className="card">
+          <div className="leistungen">
             <img
-              class="images"
+              className="images"
               src="/static/img/umzugsleistungen.jpg"
               alt="Unsere Leistungen für Ihren Umzug"
             />
@@ -175,15 +175,15 @@ const Home = () => (
         </div>
       </div>
     </section>
-    <div class="wrapper">
-      <div class="leistungen">
+    <div className="wrapper">
+      <div className="leistungen">
         <h2>Leistungen</h2>
-        <div class="item-holder">
-          <div class="box">
+        <div className="item-holder">
+          <div className="box">
             <img
               src="/static/img/startseite-umzugsberatung.jpg"
               alt="Kostenlose Beratung"
-              class="service-images"
+              className="service-images"
             />
             <br />
             <br />
@@ -195,7 +195,7 @@ const Home = () => (
             <a
               href="kostenloses-angebot.html"
               title="Kostenlose Beratung"
-              class="button"
+              className="button"
             >
               Kostenloses Angebot
             </a>
@@ -204,11 +204,11 @@ const Home = () => (
             <br />
             <br />
           </div>
-          <div class="box">
+          <div className="box">
             <img
               src="/static/img/startseite-einpackservice.jpg"
               alt="Einpackservice"
-              class="service-images"
+              className="service-images"
             />
             <br />
             <br />
@@ -220,7 +220,7 @@ const Home = () => (
             <a
               href="leistungen/einpackservice.html"
               title="Unser Einpackservice"
-              class="button"
+              className="button"
             >
               Einpackservice
             </a>
@@ -229,11 +229,11 @@ const Home = () => (
             <br />
             <br />
           </div>
-          <div class="box">
+          <div className="box">
             <img
               src="/static/img/startseite-moebelaufbau.jpg"
               alt="Moebelaufbau und Moebelabbau"
-              class="service-images"
+              className="service-images"
             />
             <br />
             <br />
@@ -245,7 +245,7 @@ const Home = () => (
             <a
               href="leistungen/demontage_der_moebel.html"
               title="Unser Service für Möbelauf- und abbau"
-              class="button"
+              className="button"
             >
               Möbelservice
             </a>

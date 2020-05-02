@@ -40,11 +40,11 @@ function MyApp({ Component, pageProps }) {
         <link href="/static/css/style.css" rel="stylesheet" />
       </Head>
       <header>
-        <h1 class="logo">
+        <h1 className="logo">
           <Link href="/">
             <a title="Startseite">
               <img
-                class="logo-pic"
+                className="logo-pic"
                 src="/static/img/logo.jpg"
                 alt="Logo Ihrer Umzugsfirma"
               />
@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
         </h1>
 
-        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <input type="checkbox" id="nav-toggle" className="nav-toggle" />
 
         <nav>
           <ul>
@@ -87,19 +87,19 @@ function MyApp({ Component, pageProps }) {
             </li>
             <li>
               <Link href="/kostenloses-angebot">
-                <a title="Ihr kostenloses Angebot" class="button">
+                <a title="Ihr kostenloses Angebot" className="button">
                   Kostenloses Angebot
                 </a>
               </Link>
             </li>
           </ul>
         </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
+        <label htmlFor="nav-toggle" className="nav-toggle-label">
           <span></span>
         </label>
       </header>
-      <div class="kontakt">
-        <div class="wrapper">
+      <div className="kontakt">
+        <div className="wrapper">
           <b>
             Haben Sie Fragen?
             <a
@@ -113,9 +113,9 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
       <Component {...pageProps} />
-      <div class="divider_small"></div>
-      <div class="wrapper">
-        <div class="footer">
+      <div className="divider_small"></div>
+      <div className="wrapper">
+        <div className="footer">
           <div>
             <h2>Anschrift & Kontakt</h2>
             <h3>Aust Umzüge & Haushaltsäuflösungen</h3>
@@ -161,7 +161,7 @@ function MyApp({ Component, pageProps }) {
               <br />
             </p>
           </div>
-          <div class="right">
+          <div className="right">
             <a
               href="https://profis.check24.de/profil/aust-umzuge-haushaltsauflosungen/qyekqm"
               target="_blank"
@@ -171,7 +171,7 @@ function MyApp({ Component, pageProps }) {
               <img
                 src="/static/img/check24.png"
                 alt="Check 24 Bewertungen über uns"
-                class="social"
+                className="social"
               />
             </a>
             <div>
@@ -183,7 +183,7 @@ function MyApp({ Component, pageProps }) {
               >
                 <img
                   src="/static/img/instagram-icon.png"
-                  class="social"
+                  className="social"
                   alt="Bild Link zu Instagram"
                 />
               </a>
@@ -195,7 +195,7 @@ function MyApp({ Component, pageProps }) {
               >
                 <img
                   src="/static/img/facebook-icon.png"
-                  class="social"
+                  className="social"
                   alt="Bild Link zu Facebook"
                 />{" "}
               </a>

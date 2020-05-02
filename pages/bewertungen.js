@@ -6,13 +6,13 @@ const Bewertungen = () => (
       <title>Aust Umzüge und Haushaltsauflösungen</title>
     </Head>
 
-    <div class="hero-head-bewertungen">
-      <div class="heading">
+    <div className="hero-head-bewertungen">
+      <div className="heading">
         <h1>WAS SAGEN UNSERE KUNDEN</h1>
         <p>EHRLICHES FEEDBACK VON UNSEREN KUNDEN</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -23,35 +23,35 @@ const Bewertungen = () => (
         </a>
       </h3>
     </div>
-    <section class="feedback">
+    <section className="feedback">
       <h2>Feedback von Check24</h2>
-      <div class="underline"></div>
-      <div class="main">
-        <div class="card">
+      <div className="underline"></div>
+      <div className="main">
+        <div className="card">
           <p>Marina G.</p>
-          <div class="stars">
+          <div className="stars">
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
@@ -68,31 +68,31 @@ const Bewertungen = () => (
           <br />
           <br />
         </div>
-        <div class="card">
+        <div className="card">
           <p>Alfred M.</p>
-          <div class="stars">
+          <div className="stars">
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
@@ -112,31 +112,31 @@ const Bewertungen = () => (
           <br />
           <br />
         </div>
-        <div class="card">
+        <div className="card">
           <p>Sergej R.</p>
-          <div class="stars">
+          <div className="stars">
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
@@ -156,35 +156,35 @@ const Bewertungen = () => (
         </div>
       </div>
     </section>
-    <section class="feedback">
+    <section className="feedback">
       <h2>Feedback von Google</h2>
-      <div class="underline"></div>
-      <div class="main">
-        <div class="card">
+      <div className="underline"></div>
+      <div className="main">
+        <div className="card">
           <p>Pawel S.</p>
-          <div class="stars">
+          <div className="stars">
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
@@ -203,31 +203,31 @@ const Bewertungen = () => (
           <br />
           <br />
         </div>
-        <div class="card">
+        <div className="card">
           <p>Mathias M.</p>
-          <div class="stars">
+          <div className="stars">
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
@@ -245,31 +245,31 @@ const Bewertungen = () => (
           <br />
           <br />
         </div>
-        <div class="card">
+        <div className="card">
           <p>Julia Prang</p>
-          <div class="stars">
+          <div className="stars">
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />
             <img
-              class="star"
+              className="star"
               src="assets/img/star.png"
               alt="Star for service"
             />

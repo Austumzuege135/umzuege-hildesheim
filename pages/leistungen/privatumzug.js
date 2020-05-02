@@ -7,13 +7,13 @@ const Privatumzug = () => (
       <title>Aust Umzüge und Haushaltsauflösungen</title>
     </Head>
 
-    <div class="hero-head-privatumzug">
-      <div class="heading">
+    <div className="hero-head-privatumzug">
+      <div className="heading">
         <h1>PRIVATUMZÜGE</h1>
         <p>DAMIT SIE SICH DEN STRESS SPAREN</p>
       </div>
     </div>
-    <div class="seperator">
+    <div className="seperator">
       <h3>
         <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
@@ -24,7 +24,7 @@ const Privatumzug = () => (
         </a>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
@@ -95,7 +95,7 @@ const Privatumzug = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../leistungen.html"
         title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
       >
@@ -107,7 +107,7 @@ const Privatumzug = () => (
       <br />
       <br />
       <a
-        class="button"
+        className="button"
         href="../kostenloses-angebot.html"
         title="Kostenlosees Angebot für Ihren Privatumzug"
       >
