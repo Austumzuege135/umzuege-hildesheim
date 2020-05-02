@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const Leistungen = () => (
   <div>
@@ -10,7 +11,6 @@ const Leistungen = () => (
         name="description"
         content="Aust Umzüge & Haushaltsauflösungen ist Ihre verlässlicher Partner, wenn es rund um Umzüge geht"
       />
-      <link async rel="stylesheet" href="assets/css/style.css" />
       <link
         async
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
@@ -38,81 +38,6 @@ const Leistungen = () => (
       <meta name="theme-color" content="#ffffff" />
       <link rel="preload" href="/static/css/style.css" rel="stylesheet" />
     </Head>
-    <header>
-      <h1 class="logo">
-        <a href="index.html" title="Startseite">
-          <img
-            class="logo-pic"
-            src="assets/img/logo.jpg"
-            alt="Logo Ihrer Umzugsfirma"
-          />
-        </a>
-      </h1>
-
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html" title="Startseite">
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="leistungen.html"
-              title="Unsere Leistungen für Umzüge und Haushaltsauflösungen"
-            >
-              Leistungen
-            </a>
-          </li>
-          <li>
-            <a href="bewertungen.html" title="Bewertungen unserer Kunden">
-              Bewertungen
-            </a>
-          </li>
-          <li>
-            <a href="ratgeber.html" title="Unser Ratgeber für Ihren Umzug">
-              Ratgeber
-            </a>
-          </li>
-          <li>
-            <a
-              href="kontakt.html"
-              title="Ihr Kontakt zu Ihrem Partner für Umzüge"
-            >
-              Kontakt
-            </a>
-          </li>
-          <li>
-            <a
-              href="kostenloses-angebot.html"
-              title="Ihr kostenloses Angebot"
-              class="button"
-            >
-              Kostenloses Angebot
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-      </label>
-    </header>
-    <div class="kontakt">
-      <div class="wrapper">
-        <b>
-          Haben Sie Fragen?
-          <a
-            href="tel:05121- 7558379"
-            title="Rufen Sie uns unverbindlich an - Hier klicken"
-          >
-            05121- 7558379{" "}
-          </a>
-          | Montag - Freitag von 09:00 - 19:00 Uhr
-        </b>
-      </div>
-    </div>
 
     <div class="hero-head-leistungen">
       <div class="heading">
@@ -138,8 +63,8 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-privatumzug.jpg"
-            alt="Simple online Businesscard"
+            src="/static/img/leistungen-privatumzug.jpg"
+            alt="Privatumzug, stressfrei umziehen für Ihren Haushalt"
           />
         </div>
         <div>
@@ -162,25 +87,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/privatumzug.html"
-            title="Privatumzüge"
-          >
-            <b>Mehr zu Privatumzügen</b>
-          </a>
+          <Link href="/leistungen/privatumzug">
+            <a class="button" title="Privatumzüge">
+              <b>Mehr zu Privatumzügen</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihren Privatumzug"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -190,7 +114,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-firmenumzug.jpg"
+            src="/static/img/leistungen-firmenumzug.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -212,25 +136,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/firmenumzug.html"
-            title="Firmenumzug"
-          >
-            <b>Mehr zu Firmenumzügen</b>
-          </a>
+          <Link href="leistungen/firmenumzug">
+            <a class="button" title="Firmenumzug">
+              <b>Mehr zu Firmenumzügen</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihren Firmenumzug"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -240,7 +163,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-fernumzug.jpg"
+            src="/static/img/leistungen-fernumzug.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -264,25 +187,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/fern-und-ubersee.html"
-            title="Fernumzug und Überseeumzug"
-          >
-            <b>Mehr zu Fern und Überseeumzügen</b>
-          </a>
+          <Link href="leistungen/fern-und-ubersee">
+            <a class="button" title="Fernumzug und Überseeumzug">
+              <b>Mehr zu Fern und Überseeumzügen</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihren Fernumzug"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -292,7 +214,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-seniorenumzug.jpg"
+            src="/static/img/leistungen-seniorenumzug.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -312,25 +234,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/seniorenumzug.html"
-            title="Seniorenumzug"
-          >
-            <b>Mehr zu Seniorenumzug</b>
-          </a>
+          <Link href="leistungen/seniorenumzug">
+            <a class="button" title="Seniorenumzug">
+              <b>Mehr zu Seniorenumzug</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihren Seniorenumzug"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -340,7 +261,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-umzugshelfer.jpg"
+            src="/static/img/leistungen-umzugshelfer.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -362,25 +283,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/umzugshelfer.html"
-            title="Umzugshelfer"
-          >
-            <b>Mehr zu Umzugshelfern</b>
-          </a>
+          <Link href="leistungen/umzugshelfer">
+            <a class="button" title="Umzugshelfer">
+              <b>Mehr zu Umzugshelfern</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihre Umzugshelfer"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -390,7 +310,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-halteverbot.jpg"
+            src="/static/img/leistungen-halteverbot.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -414,20 +334,18 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/halteverbot.html"
-            title="Halteverbot"
-          >
-            <b>Mehr zum Thema Halteverbot</b>
-          </a>
+          <Link href="leistungen/halteverbot">
+            <a class="button" title="Halteverbot">
+              <b>Mehr zum Thema Halteverbot</b>
+            </a>
+          </Link>
         </div>
       </div>
       <div class="display">
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-malerarbeiten.jpg"
+            src="/static/img/leistungen-malerarbeiten.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -454,25 +372,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/malerarbeiten.html"
-            title="Malerarbeiten"
-          >
-            <b>Mehr zu den Malerarbeiten</b>
-          </a>
+          <Link href="leistungen/malerarbeiten">
+            <a class="button" title="Malerarbeiten">
+              <b>Mehr zu den Malerarbeiten</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für anstehende Malerarbeiten"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -482,7 +399,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-umzugsberatung.jpg"
+            src="/static/img/leistungen-umzugsberatung.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -506,25 +423,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/umzugsberatung.html"
-            title="Umzugsberatung"
-          >
-            <b>Mehr zu unserer Umzugsberatung</b>
-          </a>
+          <Link href="leistungen/umzugsberatung">
+            <a class="button" title="Umzugsberatung">
+              <b>Mehr zu unserer Umzugsberatung</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihre Umzugsberatung"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -534,7 +450,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-moebelaufbau.jpg"
+            src="/static/img/leistungen-moebelaufbau.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -557,25 +473,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/demontage_der_moebel.html"
-            title="Möbeldemontage"
-          >
-            <b>Demontage Ihrer Möbel</b>
-          </a>
+          <Link href="leistungen/demontage_der_moebel">
+            <a class="button" title="Möbeldemontage">
+              <b>Demontage Ihrer Möbel</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihre Möbel"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -585,7 +500,7 @@ const Leistungen = () => (
         <div>
           <img
             class="display-img"
-            src="assets/img/leistungen-haushaltsaufloesung.jpg"
+            src="/static/img/leistungen-haushaltsaufloesung.jpg"
             alt="Simple online Businesscard"
           />
         </div>
@@ -608,25 +523,24 @@ const Leistungen = () => (
           </p>
           <br />
           <br />
-          <a
-            class="button"
-            href="leistungen/haushaltsaufloesungen.html"
-            title="Haushaltsauflösungen"
-          >
-            <b>Hier erfahren Sie mehr</b>
-          </a>
+          <Link href="leistungen/haushaltsaufloesungen">
+            <a class="button" title="Haushaltsauflösungen">
+              <b>Hier erfahren Sie mehr</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
           <br />
           <br />
-          <a
-            class="button"
-            href="kostenloses-angebot.html"
-            title="Kostenlosees Angebot für Ihre Haushaltsauflösung"
-          >
-            <b>Zum kostenlosen Angebot</b>
-          </a>
+          <Link href="/kostenloses-angebot">
+            <a
+              class="button"
+              title="Kostenlosees Angebot für Ihren Privatumzug"
+            >
+              <b>Zum kostenlosen Angebot</b>
+            </a>
+          </Link>
           <br />
           <br />
           <br />
@@ -648,119 +562,6 @@ const Leistungen = () => (
       <br />
       <br />
       <br />
-    </div>
-
-    <div class="divider_small"></div>
-    <div class="wrapper">
-      <div class="footer">
-        <div>
-          <h2>Anschrift & Kontakt</h2>
-          <h3>Aust Umzüge & Haushaltsäuflösungen</h3>
-          <p>
-            Alex Aust
-            <br />
-            Ehrlicherstr. 38
-            <br />
-            31135 Hildesheim
-            <br />
-            <br />
-            Telefon: 05121 – 7558379
-            <br />
-            Mobil: 0176 – 70745281
-            <br />
-            E-Mail: info@aust-umzuege.de
-            <br />
-            <br />
-          </p>
-        </div>
-        <div>
-          <h2>Bürozeiten</h2>
-          <p>
-            Montag – Freitag: 09:00 – 19:00 Uhr <br />
-            Samstag nach Vereinbarung
-            <br />
-            Sonntag geschlossen <br />
-            <br />
-            <a href="rechtliches/impressum.html" title="Impressum">
-              Impressum
-            </a>
-            <br />
-            <br />
-            <a href="rechtliches/datenschutz.html" title="Datenschutzerklärung">
-              Datenschutzerklärung
-            </a>
-            <br />
-            <br />
-            <a href="rechtliches/agbs.html" title="Unsere AGBs">
-              AGBs
-            </a>
-            <br />
-            <br />
-          </p>
-        </div>
-        <div class="right">
-          <a
-            href="https://profis.check24.de/profil/aust-umzuge-haushaltsauflosungen/qyekqm"
-            target="_blank"
-            rel="noreferrer"
-            title="Check24 Seite"
-          >
-            <img
-              src="assets/img/check24.png"
-              alt="Check 24 Bewertungen über uns"
-              class="social"
-            />
-          </a>
-          <div>
-            <a
-              href="https://www.instagram.com/austumzuege/"
-              rel="noreferrer"
-              target="_blank"
-              title="Unsere Instagramseite"
-            >
-              <img
-                src="assets/img/instagram-icon.png"
-                class="social"
-                alt="Bild Link zu Instagram"
-              />
-            </a>
-            <a
-              href="https://www.facebook.com/Austumzuege/"
-              rel="noreferrer"
-              target="_blank"
-              title="Unsere Facebookseite"
-            >
-              <img
-                src="assets/img/facebook-icon.png"
-                class="social"
-                alt="Bild Link zu Facebook"
-              />{" "}
-            </a>
-            <br />
-            <br />
-            <a
-              href="https://www.clemensfabig.com"
-              target="_blank"
-              rel="noreferrer"
-              title="Webdesign made by Clemens Fabig"
-            >
-              Made with ❤ by Clemens Fabig
-            </a>
-            <br />
-            <br />
-            <a
-              href="rechtliches/impressum.html"
-              target="_blank"
-              rel="noreferrer"
-              title="Impressum"
-            >
-              © 2020, by Alex Aust
-            </a>
-            <br />
-            <br />
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 );
