@@ -1,3 +1,3 @@
 const Toro = () => <div></div>;
 
-export const Toro;
+export default Toro;
