@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Head from "next/head";
 
 const Agbs = () => (
@@ -15,7 +14,7 @@ const Agbs = () => (
     <div class="seperator">
       <div class="wrapper">
         <h3>
-          <img src="../assets/img/message-icon.png" />
+          <img src="/static/img/message-icon.png" />
           Kostenloses Angebot erhalten
         </h3>
       </div>

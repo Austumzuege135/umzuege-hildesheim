@@ -144,17 +144,17 @@ function MyApp({ Component, pageProps }) {
               <br />
               Sonntag geschlossen <br />
               <br />
-              <Link href="rechtliches/impressum">
+              <Link href="/rechtliches/impressum">
                 <a title="Impressum">Impressum</a>
               </Link>
               <br />
               <br />
-              <Link href="rechtliches/datenschutz">
+              <Link href="/rechtliches/datenschutz">
                 <a title="Datenschutzerklärung">Datenschutzerklärung</a>
               </Link>
               <br />
               <br />
-              <Link href="rechtliches/agbs">
+              <Link href="/rechtliches/agbs">
                 <a title="Unsere AGBs">AGBs</a>
               </Link>
               <br />
@@ -211,7 +211,7 @@ function MyApp({ Component, pageProps }) {
               </a>
               <br />
               <br />
-              <Link href="rechtliches/impressum">
+              <Link href="/rechtliches/impressum">
                 <a target="_blank" rel="noreferrer" title="Impressum">
                   © 2020, by Alex Aust
                 </a>
