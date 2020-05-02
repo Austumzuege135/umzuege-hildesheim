@@ -1,3 +1,3 @@
-const Hallo = () => <div></div>;
+const Toro = () => <div></div>;
 
-export const Hallo;
+export const Toro;
