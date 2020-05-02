@@ -284,7 +284,7 @@ html {
   text-align: center;
   background-color: #cccccc;
   width: 100vw;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../img/head-impressum.jpg ");
