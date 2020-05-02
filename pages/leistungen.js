@@ -17,7 +17,7 @@ const Leistungen = () => (
       <h3>
         <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
-            src="assets/img/message-icon.png"
+            src="/static/img/message-icon.png"
             alt="Schreiben Sie uns eine Nachricht"
           />
           Kostenloses Angebot erhalten

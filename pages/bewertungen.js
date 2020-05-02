@@ -16,7 +16,7 @@ const Bewertungen = () => (
       <h3>
         <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
           <img
-            src="assets/img/message-icon.png"
+            src="/static/img/message-icon.png"
             alt="Schreiben Sie uns eine Nachricht"
           />
           Kostenloses Angebot erhalten
@@ -32,27 +32,27 @@ const Bewertungen = () => (
           <div className="stars">
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
           </div>
@@ -73,27 +73,27 @@ const Bewertungen = () => (
           <div className="stars">
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
           </div>
@@ -117,27 +117,27 @@ const Bewertungen = () => (
           <div className="stars">
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
           </div>
@@ -165,27 +165,27 @@ const Bewertungen = () => (
           <div className="stars">
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
           </div>
@@ -208,27 +208,27 @@ const Bewertungen = () => (
           <div className="stars">
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
           </div>
@@ -250,27 +250,27 @@ const Bewertungen = () => (
           <div className="stars">
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
             <img
               className="star"
-              src="assets/img/star.png"
+              src="/static/img/star.png"
               alt="Star for service"
             />
           </div>
