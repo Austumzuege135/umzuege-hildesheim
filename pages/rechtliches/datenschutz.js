@@ -5,7 +5,7 @@ const Datenschutz = () => (
     <Head>
       <title></title>
     </Head>
-    <div className="hero-head-angebot">
+    <div className="hero-head-impressum">
       <div className="heading">
         <h1>DATENSCHUTZ</h1>
         <p>WIR RESPEKTIEREN IHRE PRIVATSPHÄRE</p>

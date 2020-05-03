@@ -12,13 +12,15 @@ const Malerarbeiten = () => (
     </div>
     <div className="seperator">
       <h3>
-        <a href="../kostenloses-angebot.html" title="Zum kostenlosen Angebot">
-          <img
-            src="../assets/img/message-icon.png"
-            alt="Schreiben Sie uns eine Nachricht"
-          />
-          Kostenloses Angebot erhalten
-        </a>
+        <Link href="kostenloses-angebot">
+          <a title="Zum kostenlosen Angebot">
+            <img
+              src="/static/img/message-icon.png"
+              alt="Schreiben Sie uns eine Nachricht"
+            />
+            Kostenloses Angebot erhalten
+          </a>
+        </Link>
       </h3>
     </div>
     <div className="wrapper">
@@ -91,25 +93,27 @@ const Malerarbeiten = () => (
       <br />
       <br />
       <br />
-      <a
-        className="button"
-        href="../leistungen.html"
-        title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
-      >
-        <b>Zurück zur Übersicht</b>
-      </a>
+      <Link href="/leistungen">
+        <a
+          className="button"
+          title="Zurück zu Leistungen für Umzüge und Haushaltsauflösungen"
+        >
+          <b>Zurück zur Übersicht</b>
+        </a>
+      </Link>
       <br />
       <br />
       <br />
       <br />
       <br />
-      <a
-        className="button"
-        href="../kostenloses-angebot.html"
-        title="Kostenlosees Angebot für Ihren Privatumzug"
-      >
-        <b>Zum kostenlosen Angebot</b>
-      </a>
+      <Link href="/kostenloses-angebot">
+        <a
+          className="button"
+          title="Kostenlosees Angebot für Ihren Privatumzug"
+        >
+          <b>Zum kostenlosen Angebot</b>
+        </a>
+      </Link>
       <br />
       <br />
       <br />

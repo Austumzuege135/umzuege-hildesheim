@@ -5,7 +5,7 @@ const Agbs = () => (
     <Head>
       <title></title>
     </Head>
-    <div class="hero-head-angebot">
+    <div class="hero-head-impressum">
       <div class="heading">
         <h1>UNSERE AGBs</h1>
         <p>DAMIT SIE WISSEN WORAUF SIE SICH EINLASSEN</p>

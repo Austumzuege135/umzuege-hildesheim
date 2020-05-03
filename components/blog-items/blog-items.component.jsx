@@ -1,20 +1,27 @@
-import fetch from "isomorphic-unfetch";
+import Link from "next/link";
 
-const Post = (props) => (
-  <div>
-    Hallo welt
-    <br />
-    Hier finden wir die Blog übersicht
+const Posts = (props) => (
+  <div className="wrapper">
+    {props.posts.map((post) => (
+      <div key={post.id} {...post}>
+        <div>
+          <h2>{post.title}</h2>
+          <h3>{post.heading}</h3>
+          <p>{post.preview}</p>
+          <br />
+          <br />
+          <Link href="/blog/[id]" as={`/blog/${post.id}`}>
+            <a className="button">
+              <b>{post.title}</b>
+            </a>
+          </Link>
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+    ))}
   </div>
 );
 
-Blog.getInitialProps = async function () {
-  const res = await fetch("https://my-awesom-blog-api-crf.herokuapp.com/api/");
-  const data = await res.json();
-
-  return {
-    posts: data,
-  };
-};
-
-export default Post;
+export default Posts;

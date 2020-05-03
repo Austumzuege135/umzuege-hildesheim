@@ -155,6 +155,17 @@ const Bewertungen = () => (
           <br />
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <a
+        className="button"
+        href="https://profis.check24.de/profil/aust-umzuge-haushaltsauflosungen/qyekqm"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Alle Bewertungen von Check24
+      </a>
     </section>
     <section className="feedback">
       <h2>Feedback von Google</h2>
@@ -285,6 +296,17 @@ const Bewertungen = () => (
           <br />
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <a
+        className="button"
+        href="https://www.google.com/search?q=aust+umz%C3%BCge+%26+haushaltsaufl%C3%B6sungen&rlz=1C1CHBF_dePH862PH862&oq=aust+umz%C3%BCge+%26+haushalt&aqs=chrome.1.69i57j69i59l2j0j69i60l3.5309j0j7&sourceid=chrome&ie=UTF-8#lrd=0x47baaf2ef7d8bbb1:0x385bbbee5ac8beb0,1,,,"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Alle Bewertungen von Google
+      </a>
     </section>
   </div>
 );

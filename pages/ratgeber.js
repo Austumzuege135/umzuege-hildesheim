@@ -1,6 +1,8 @@
 import Head from "next/head";
+import Posts from "../components/blog-items/blog-items.component";
+import fetch from "isomorphic-unfetch";
 
-const Ratgeber = () => (
+const Ratgeber = (props) => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
@@ -23,7 +25,26 @@ const Ratgeber = () => (
       </h3>
     </div>
     <div className="wrapper">
+      <Posts {...props} />
       <br />
+      <br />
+    </div>
+  </div>
+);
+
+Ratgeber.getInitialProps = async function () {
+  const res = await fetch("https://my-awesom-blog-api-crf.herokuapp.com/alex/");
+  const data = await res.json();
+
+  return {
+    posts: data,
+  };
+};
+
+export default Ratgeber;
+
+{
+  /* <br />
       <br />
       <br />
       <br />
@@ -51,22 +72,5 @@ const Ratgeber = () => (
         Selbstverständlich können Sie uns jederzeit auch persönlich um Rat
         fragen.
       </p>
-
-      <br />
-      <br />
-      <a
-        href="blog/umzug-checkliste.html"
-        title="Checkliste für Ihren Umzug"
-        className="button"
-      >
-        Ihre Checkliste
-      </a>
-      <br />
-      <br />
-      <br />
-      <br />
-    </div>
-  </div>
-);
-
-export default Ratgeber;
+ */
+}

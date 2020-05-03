@@ -47,7 +47,7 @@ const Impressum = () => (
           05121 – 7558379
           <br />
           <br />
-          Umsatzsteuer-ID:
+          Steuer-ID:
           <br />
           30/101/22146
           <br />
