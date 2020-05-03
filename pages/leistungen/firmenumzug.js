@@ -14,7 +14,7 @@ const Firmenumzug = () => (
     </div>
     <div className="seperator">
       <h3>
-        <Link href="kostenloses-angebot">
+        <Link href="/kostenloses-angebot">
           <a title="Zum kostenlosen Angebot">
             <img
               src="/static/img/message-icon.png"

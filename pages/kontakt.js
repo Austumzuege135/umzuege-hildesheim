@@ -13,13 +13,15 @@ const Kontakt = () => (
     </div>
     <div className="seperator">
       <h3>
-        <a href="kostenloses-angebot.html" title="Zum kostenlosen Angebot">
-          <img
-            src="/static/img/message-icon.png"
-            alt="Schreiben Sie uns eine Nachricht"
-          />
-          Kostenloses Angebot erhalten
-        </a>
+        <Link href="/kostenloses-angebot">
+          <a title="Zum kostenlosen Angebot">
+            <img
+              src="/static/img/message-icon.png"
+              alt="Schreiben Sie uns eine Nachricht"
+            />
+            Kostenloses Angebot erhalten
+          </a>
+        </Link>
       </h3>
     </div>
 
