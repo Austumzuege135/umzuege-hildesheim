@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Posts from "../components/blog-items/blog-items.component";
 import fetch from "isomorphic-unfetch";
+import Link from "next/link";
 
 const Ratgeber = (props) => (
   <div>
