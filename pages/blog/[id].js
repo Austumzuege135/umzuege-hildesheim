@@ -1,11 +1,9 @@
-import Head from "next/head";
 import fetch from "isomorphic-unfetch";
 import BlogDetail from "../../components/blog-detail/blog-detail.component";
 
 const Post = (props) => {
   return (
     <div>
-      <Head></Head>
       <div className="wrapper">
         <BlogDetail {...props} />
       </div>
