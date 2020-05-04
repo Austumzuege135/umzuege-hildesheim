@@ -11,7 +11,7 @@ const Ratgeber = (props) => (
     <div className="hero-head-ratgeber">
       <div className="heading">
         <h1>WAS SOLLTEN SIE BEI EINEM UMZUG BEACHTEN?</h1>
-        <p>UND ANDERE THEMEN RUND UM DAS THEMA MÖBEL</p>
+        <p>UND ANDERE THEMEN RUND UM DAS THEMA MÖBEL </p>
       </div>
     </div>
     <div className="seperator">
