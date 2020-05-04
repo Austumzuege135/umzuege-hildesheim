@@ -1,4 +1,8 @@
-import ReactHtmlParser from "html-react-parser";
+import ReactHtmlParser, {
+  processNodes,
+  convertNodeToElement,
+  htmlparser2,
+} from "html-react-parser";
 
 const BlogDetail = (props) => (
   <div>
