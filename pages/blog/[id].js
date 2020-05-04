@@ -12,7 +12,7 @@ const Post = (props) => (
 Post.getInitialProps = async function (context) {
   const { id } = context.query;
   const res = await fetch(
-    `https://my-awesom-blog-api-crf.herokuapp.com/api/${id}`
+    `https://my-awesom-blog-api-crf.herokuapp.com/alex/${id}`
   );
   const post = await res.json();
 
