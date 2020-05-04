@@ -11,13 +11,18 @@ const Impressum = () => (
         <p>ALLES WAS SIE WISSEN MÜSSEN</p>
       </div>
     </div>
-    <div class="seperator">
-      <div class="wrapper">
-        <h3>
-          <img src="/static/img/message-icon.png" />
-          Kostenloses Angebot erhalten
-        </h3>
-      </div>
+    <div className="seperator">
+      <h3>
+        <Link href="/kostenloses-angebot">
+          <a title="Zum kostenlosen Angebot">
+            <img
+              src="/static/img/message-icon.png"
+              alt="Schreiben Sie uns eine Nachricht"
+            />
+            Kostenloses Angebot erhalten
+          </a>
+        </Link>
+      </h3>
     </div>
     <div class="wrapper">
       <br />

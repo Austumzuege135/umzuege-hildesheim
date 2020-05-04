@@ -1,3 +1,26 @@
-const Toro = () => <div></div>;
+import Head from "next/head";
+import fetch from "isomorphic-unfetch";
+import BlogDetail from "../../components/blog-detail/blog-detail.component";
 
-export default Toro;
+const Post = (props) => {
+  return (
+    <div>
+      <Head></Head>
+      <div className="wrapper">
+        <BlogDetail {...props} />
+      </div>
+    </div>
+  );
+};
+
+Post.getInitialProps = async function (context) {
+  const { id } = context.query;
+  const res = await fetch(
+    `https://my-awesom-blog-api-crf.herokuapp.com/alex/${id}`
+  );
+  const post = await res.json();
+
+  return { post };
+};
+
+export default Post;
