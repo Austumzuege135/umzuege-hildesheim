@@ -6,7 +6,7 @@ import ReactHtmlParser, {
 
 const BlogDetail = (props) => (
   <div className="wrapper">
-    <h1> {ReactHtmlParser(props.post.title)}</h1>
+    <h1>{props.post.title}</h1>
     <br /> <br />
     <h2> {ReactHtmlParser(props.post.heading)}</h2>
     <br /> <br />
