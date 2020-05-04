@@ -3,9 +3,7 @@ import BlogDetail from "../../components/blog-detail/blog-detail.component";
 
 const Post = (props) => (
   <div>
-    <div className="wrapper">
-      <BlogDetail {...props} />
-    </div>
+    <BlogDetail {...props} />
   </div>
 );
 
