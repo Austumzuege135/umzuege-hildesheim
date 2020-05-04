@@ -58,9 +58,7 @@ function MyApp({ Component, pageProps }) {
           <ul>
             <li>
               <Link href="/">
-                <a href="index.html" title="Startseite">
-                  Home
-                </a>
+                <a title="Startseite">Home</a>
               </Link>
             </li>
             <li>

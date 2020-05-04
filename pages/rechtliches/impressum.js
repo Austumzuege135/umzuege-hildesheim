@@ -1,12 +1,13 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const Impressum = () => (
   <div>
     <Head>
       <title></title>
     </Head>
-    <div class="hero-head-impressum">
-      <div class="heading">
+    <div className="hero-head-impressum">
+      <div className="heading">
         <h1>UNSER IMPRESSUM</h1>
         <p>ALLES WAS SIE WISSEN MÜSSEN</p>
       </div>
@@ -24,7 +25,7 @@ const Impressum = () => (
         </Link>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />

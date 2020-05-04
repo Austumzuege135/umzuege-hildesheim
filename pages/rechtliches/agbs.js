@@ -1,12 +1,13 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const Agbs = () => (
   <div>
     <Head>
       <title></title>
     </Head>
-    <div class="hero-head-impressum">
-      <div class="heading">
+    <div className="hero-head-impressum">
+      <div className="heading">
         <h1>UNSERE AGBs</h1>
         <p>DAMIT SIE WISSEN WORAUF SIE SICH EINLASSEN</p>
       </div>
@@ -24,7 +25,7 @@ const Agbs = () => (
         </Link>
       </h3>
     </div>
-    <div class="wrapper">
+    <div className="wrapper">
       <br />
       <br />
       <br />
