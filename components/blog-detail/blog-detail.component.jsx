@@ -8,7 +8,7 @@ const BlogDetail = (props) => (
   <div className="wrapper">
     <h1>{props.post.title}</h1>
     <br /> <br />
-    <h2> {ReactHtmlParser(props.post.heading)}</h2>
+    <h2>{props.post.heading}</h2>
     <br /> <br />
     <div className="preview"> {ReactHtmlParser(props.post.preview)}</div>
     <br />
