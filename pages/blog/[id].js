@@ -1,15 +1,13 @@
 import fetch from "isomorphic-unfetch";
 import BlogDetail from "../../components/blog-detail/blog-detail.component";
 
-const Post = (props) => {
-  return (
-    <div>
-      <div className="wrapper">
-        <BlogDetail {...props} />
-      </div>
+const Post = (props) => (
+  <div>
+    <div className="wrapper">
+      <BlogDetail {...props} />
     </div>
-  );
-};
+  </div>
+);
 
 Post.getInitialProps = async function (context) {
   const { id } = context.query;
