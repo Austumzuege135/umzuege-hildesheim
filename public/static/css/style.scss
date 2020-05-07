@@ -718,13 +718,13 @@ nav a {
   border-radius: 20px;
 
   @media screen and (max-width: 300px) {
-    font-size: 13px;
+    font-size: 6px;
     border-radius: 10px;
   }
-}
 
-:hover {
-  color: white;
+  :hover {
+    color: white;
+  }
 }
 
 .nav-toggle:checked ~ nav {

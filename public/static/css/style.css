@@ -854,12 +854,12 @@ nav a {
 
 @media screen and (max-width: 300px) {
   .button {
-    font-size: 13px;
+    font-size: 6px;
     border-radius: 10px;
   }
 }
 
-:hover {
+.button :hover {
   color: white;
 }
 
