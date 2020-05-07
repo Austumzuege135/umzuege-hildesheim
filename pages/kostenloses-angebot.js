@@ -35,7 +35,12 @@ const Kostenloses_Angebot = () => (
           <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
         </svg>
       </div>
-      <form action="#" method="post" id="contact_form">
+      <form
+        method="POST"
+        id="contact_form"
+        name="kostenloses-angebot"
+        data-netlify="true"
+      >
         <div class="name">
           <label for="name"></label>
           <input
@@ -66,22 +71,6 @@ const Kostenloses_Angebot = () => (
             required
           />
         </div>
-        <div class="subject">
-          <label for="subject"></label>
-          <select
-            placeholder="Mein Anliegen"
-            name="subject"
-            id="subject_input"
-            required
-          >
-            <option disabled hidden selected>
-              Bitte auswählen
-            </option>
-            <option>Ich möchte umziehen</option>
-            <option>Ich möchte sehr weit weg ziehen</option>
-            <option>Ich möchte meinen Haushalt auflösen</option>
-          </select>
-        </div>
         <label for="old_adress"></label>
         <input
           type="text"
@@ -102,70 +91,12 @@ const Kostenloses_Angebot = () => (
         <label for="name"></label>
         <input
           type="text"
-          placeholder="Die Etagen der alten und neuen Wohnung?"
-          name="adresse_neu"
-          id="adresse_neu"
-          required
-        />
-        <label for="name"></label>
-        <input
-          type="text"
-          placeholder="Sind Fahrstühle vorhanden?"
-          name="adresse_neu"
-          id="adresse_neu"
-          required
-        />
-        <label for="name"></label>
-        <input
-          type="text"
           placeholder="Geben Sie uns bitte einen groben Zeitraum für den Umzug (Datum, Zeit etc.)"
           name="adresse_neu"
           id="adresse_neu"
           required
         />
-        <label for="name"></label>
-        <input
-          type="text"
-          placeholder="Benötigen Sie hilfe bei der Demontage oder Montage der Möbel?"
-          name="adresse_neu"
-          id="adresse_neu"
-          required
-        />
-        <label for="name"></label>
-        <input
-          type="text"
-          placeholder="Benötigen Sie Kartons?"
-          name="adresse_neu"
-          id="adresse_neu"
-          required
-        />
-        <label for="name"></label>
-        <input
-          type="text"
-          placeholder="Benötigen Sie Hilfe beim Ein- oder Auspacken?"
-          name="adresse_neu"
-          id="adresse_neu"
-          required
-        />
-        <label for="name"></label>
-        <input
-          type="text"
-          placeholder="Wie sind die Parkmöglichkeiten und der Anlaufweg?"
-          name="adresse_neu"
-          id="adresse_neu"
-          required
-        />
-        <div class="message">
-          <label for="message"></label>
-          <textarea
-            name="message"
-            placeholder="Bitte beschreiben Sie hier möglichst detailliert Ihren Umzug (welche Möbelstücke, evtl. die Kubikmeterzahl)"
-            id="message_input"
-            cols="30"
-            rows="5"
-            required
-          ></textarea>
-        </div>
+
         <div class="submit">
           <input type="submit" value="Absenden" id="form_button" />
         </div>
