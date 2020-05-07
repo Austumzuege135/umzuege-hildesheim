@@ -37,7 +37,7 @@ const Kontakt = () => (
       </div>
       <form
         methodmethodmethod="POST"
-        id="contact_form"
+        // id="contact_form"
         name="Kontaktformular"
         data-netlify="true"
       >

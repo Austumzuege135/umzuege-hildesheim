@@ -35,12 +35,7 @@ const Kostenloses_Angebot = () => (
           <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
         </svg>
       </div>
-      <form
-        method="POST"
-        id="contact_form"
-        name="kostenloses-angebot"
-        data-netlify="true"
-      >
+      <form method="POST" name="kostenloses-angebot" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <div class="name">
           <label for="name"></label>
