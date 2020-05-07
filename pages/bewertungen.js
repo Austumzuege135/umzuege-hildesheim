@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 
 const Bewertungen = () => (
   <div>
@@ -33,31 +34,12 @@ const Bewertungen = () => (
         <div className="card">
           <p>Marina G.</p>
           <div className="stars">
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
+            <br />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
           </div>
           <br />
           <br />
@@ -74,31 +56,12 @@ const Bewertungen = () => (
         <div className="card">
           <p>Alfred M.</p>
           <div className="stars">
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
+            <br />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
           </div>
           <br />
           <br />
@@ -118,31 +81,12 @@ const Bewertungen = () => (
         <div className="card">
           <p>Sergej R.</p>
           <div className="stars">
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
+            <br />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
           </div>
           <br />
           <br />
@@ -177,32 +121,13 @@ const Bewertungen = () => (
         <div className="card">
           <p>Pawel S.</p>
           <div className="stars">
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-          </div>
+            <br />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>{" "}
           <br />
           <br />
           <p>
@@ -220,31 +145,12 @@ const Bewertungen = () => (
         <div className="card">
           <p>Mathias M.</p>
           <div className="stars">
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
+            <br />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
           </div>
           <br />
           <br />
@@ -262,32 +168,13 @@ const Bewertungen = () => (
         <div className="card">
           <p>Julia Prang</p>
           <div className="stars">
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-            <img
-              className="star"
-              src="/static/img/star.png"
-              alt="Star for service"
-            />
-          </div>
+            <br />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>{" "}
           <br />
           <br />
           <p>
