@@ -992,6 +992,10 @@ nav a {
   height: 20px;
 }
 
+.feedback .stars {
+  color: gold;
+}
+
 .feedback p {
   color: black;
   font-size: 20px;
