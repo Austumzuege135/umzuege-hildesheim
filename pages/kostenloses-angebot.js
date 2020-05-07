@@ -41,6 +41,7 @@ const Kostenloses_Angebot = () => (
         name="kostenloses-angebot"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div class="name">
           <label for="name"></label>
           <input

@@ -41,6 +41,7 @@ const Kontakt = () => (
         name="Kontaktformular"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div className="name">
           <label for="name"></label>
           <input
