@@ -87,7 +87,7 @@ const Kostenloses_Angebot = () => (
         <label for="name"></label>
         <input
           type="text"
-          placeholder="Geben Sie uns bitte einen groben Zeitraum für den Umzug (Datum, Zeit etc.)"
+          placeholder="Sonstige Informationen"
           name="adresse_neu"
           id="adresse_neu"
           required

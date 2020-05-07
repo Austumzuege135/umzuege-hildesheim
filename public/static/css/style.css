@@ -852,7 +852,14 @@ nav a {
   border-radius: 20px;
 }
 
-.button :hover {
+@media screen and (max-width: 300px) {
+  .button {
+    font-size: 13px;
+    border-radius: 10px;
+  }
+}
+
+:hover {
   color: white;
 }
 
