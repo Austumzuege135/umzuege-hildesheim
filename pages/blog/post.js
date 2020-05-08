@@ -5,7 +5,10 @@ const Post = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Hier erfahren Sie worauf Sie bei Ihrem eigenen Umzug achten müssen. Gerne helfen wir Ihnen aber aus."
+      />
     </Head>
     <div className="seperator">
       <h3>

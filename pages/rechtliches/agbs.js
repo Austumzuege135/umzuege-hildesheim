@@ -5,7 +5,10 @@ const Agbs = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Umzüge und Haushaltsauflösungen. Unsere Allgemeinen Geschäftsbedingungen."
+      />
     </Head>
     <div className="hero-head-impressum">
       <div className="heading">

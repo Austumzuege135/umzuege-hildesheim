@@ -5,7 +5,21 @@ const Home = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Aus Umzüge und Haushaltsauflösungen. Ihr Partner zum Thema Umzüge und Haushaltsauflösungen in Hildesheim und Region."
+      />
+      <script
+        type="text/javascript"
+        src="/static/javascript/cookie.js"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `document.addEventListener('DOMContentLoaded', function () {
+              cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","change_preferences_selector":"#changePreferences","language":"de","website_name":"Aust Umzüge & Haushaltsauflösungen"});
+          });`,
+        }}
+      />
     </Head>
 
     <div className="hero-head-index">

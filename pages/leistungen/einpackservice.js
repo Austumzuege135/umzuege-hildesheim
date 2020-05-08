@@ -5,7 +5,10 @@ const Einpackservice = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Sie haben gar keine Lust auf die Vorbereitung für Ihren Umzug? Gerne helfen wir Ihnen bereits beim verpacken Ihrer Habseligkeiten, holen Sie sich Ihr kostenloses Angebot für das rundum sorglos Paket"
+      />
     </Head>
     <div className="hero-head-einpackservice">
       <div className="heading">

@@ -5,7 +5,10 @@ const Privatumzug = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Sie möchten Ihren persöhnlichen Haushalt an einen anderen Ort verlagern? Für Ihren Privatumzug unterbreiten wir Ihnen gerne Ihr kostenloses Angebot!"
+      />
     </Head>
 
     <div className="hero-head-privatumzug">

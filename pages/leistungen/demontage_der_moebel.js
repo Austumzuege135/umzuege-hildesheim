@@ -5,7 +5,10 @@ const Demontage = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Nicht nur das verpacken Ihrer Gegenstände übernehmen wir gerne für Sie, auch den Abbau und Aufbau Ihrer Möbel können wir für Sie erledigen"
+      />
     </Head>
     <div className="hero-head-demontage">
       <div className="heading">

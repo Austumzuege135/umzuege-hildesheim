@@ -5,7 +5,10 @@ const Malerarbeiten = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Ärger mit den Wänden in Ihrer alten Wohnung? Auch das übernehmen wir für Sie! Sämtliche Malerarbeiten und Ausbesserungen der Wände übernehmen wir gerne!"
+      />
     </Head>
     <div className="hero-head-malerarbeiten">
       <div className="heading">

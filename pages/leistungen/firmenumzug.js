@@ -5,7 +5,10 @@ const Firmenumzug = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Ihre Firma soll schnell und reibungslos den Standort Wechseln? Gerne unterbreiten wir Ihnen für Ihren Firmenumzug Ihr konkretes und kostenloses Angebot, damit Sie sich um Ihr Business kümmern können!"
+      />
     </Head>
     <div className="hero-head-firmenumzug">
       <div className="heading">

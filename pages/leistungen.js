@@ -5,7 +5,10 @@ const Leistungen = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Unsere Leistungen rund um das Thema Umzug und Haushaltsauflösung. Sie finden Ihre spezifische Leistung nicht? Rufen Sie uns an. Wetten wir erledigen es trotzdem?"
+      />
     </Head>
 
     <div className="hero-head-leistungen">

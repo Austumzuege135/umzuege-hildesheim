@@ -5,7 +5,10 @@ const FernUndUebersee = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Es soll weiter weg gehen? Fernumzüge und Überseeumzüge sind besondere Herausforderungen, aber wir regeln auch das für Sie!"
+      />
     </Head>
     <div className="hero-head-fernumzug">
       <div className="heading">

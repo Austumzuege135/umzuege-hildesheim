@@ -5,7 +5,10 @@ const Impressum = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Unser Impressum. Umzüge und Haushaltsauflösungen."
+      />
     </Head>
     <div className="hero-head-impressum">
       <div className="heading">

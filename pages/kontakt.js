@@ -5,7 +5,10 @@ const Kontakt = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Sie haben Fragen zu unseren Dienstleistungen? Oder sind auf der Suche nach einem Service den wir nicht auf unserer Webseite haben? Schreiben Sie uns und wir geben unser Bestes Ihnen trotzdem zu helfen."
+      />
     </Head>
     <div className="hero-head-kontakt">
       <div className="heading">

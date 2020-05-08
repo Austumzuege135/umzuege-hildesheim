@@ -5,7 +5,10 @@ const Haushaltsaufloesungen = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Sie möchten aus irgendwelchen Gründen Ihren Haushalt auflösen? Rufen Sie uns an und holen Sich ihr Angebot, damit Sie sich um wichtigere Dinge kümmern können."
+      />
     </Head>
     <div className="hero-head-haushaltsauflösung">
       <div className="heading">

@@ -5,8 +5,13 @@ import { FaStar } from "react-icons/fa";
 const Bewertungen = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <title>
+        Aust Umzüge und Haushaltsauflösungen. Professionell und schnell.
+      </title>
+      <meta
+        name="description"
+        content="Unsere bisherigen Kunden für Umzuüge und Haushaltsauflösungen waren so nett und haben uns Feedback gegeben. Überzeugen Sie sich selbst von usnerer Qualität."
+      />
     </Head>
 
     <div className="hero-head-bewertungen">

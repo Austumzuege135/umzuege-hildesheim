@@ -5,7 +5,10 @@ const Umzugsberatung = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Sie haben Fragen rund um Ihren Umzug? Wir stehen nicht nur mit Tat sonder auch mit Rat zur Seite!"
+      />
     </Head>
     <div className="hero-head-umzugsberatung">
       <div className="heading">

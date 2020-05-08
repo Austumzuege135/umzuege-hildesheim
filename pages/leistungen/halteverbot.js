@@ -5,7 +5,10 @@ const Halteverbot = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Bei einem Umzug gibt es allerlei zu beachten. Parkmöglichkeiten sind oft ein unterschätzten Thema, also klären Sie rechtzeitig, ob Sie ein Halteverbot benötigen!"
+      />
     </Head>
     <div className="hero-head-halteverbot">
       <div className="heading">

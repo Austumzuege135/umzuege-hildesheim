@@ -5,7 +5,10 @@ const Kostenloses_Angebot = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Unser kostenloses Angebot für Ihren Umzug oder Ihre Haushaltsauflösung. Holen Sie sich Ihr Angebot für Ihr rundum sorglos Paket für Ihren Umzug."
+      />
     </Head>
     <div class="hero-head-angebot">
       <div class="heading">

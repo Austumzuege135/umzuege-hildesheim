@@ -5,7 +5,10 @@ const Seniorenumzug = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Ihre Eltern wollen umziehen, Sie wissen jedoch nicht wer Ihnen dabei helfen soll? Gerne übernehmen wir Ihre liebsten für Sie."
+      />
     </Head>
     <div className="hero-head-seniorenumzug">
       <div className="heading">

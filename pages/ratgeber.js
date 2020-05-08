@@ -7,7 +7,10 @@ const Ratgeber = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="Wir bieten Ihnen nicht nur die Möglichkeit eines kostenlosen Angebots. Wir helfen Ihnen auch kostenlos mit Ihren Fragen rund um das Thema Umzug!"
+      />
     </Head>
     <div className="hero-head-ratgeber">
       <div className="heading">
