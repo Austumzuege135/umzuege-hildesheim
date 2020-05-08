@@ -6,6 +6,7 @@ const Bewertungen = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
     </Head>
 
     <div className="hero-head-bewertungen">

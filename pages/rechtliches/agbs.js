@@ -4,7 +4,8 @@ import Link from "next/link";
 const Agbs = () => (
   <div>
     <Head>
-      <title></title>
+      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
     </Head>
     <div className="hero-head-impressum">
       <div className="heading">

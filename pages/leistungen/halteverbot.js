@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const Halteverbot = () => (
   <div>
-    <Head></Head>
+    <Head>
+      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
+    </Head>
     <div className="hero-head-halteverbot">
       <div className="heading">
         <h1>Halteverbot</h1>

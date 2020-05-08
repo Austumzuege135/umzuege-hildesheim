@@ -3,7 +3,10 @@ import Head from "next/head";
 
 const Umzugsberatung = () => (
   <div>
-    <Head></Head>
+    <Head>
+      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
+    </Head>
     <div className="hero-head-umzugsberatung">
       <div className="heading">
         <h1>Umzugsberatung</h1>

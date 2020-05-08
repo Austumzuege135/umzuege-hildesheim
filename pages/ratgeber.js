@@ -7,6 +7,7 @@ const Ratgeber = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
     </Head>
     <div className="hero-head-ratgeber">
       <div className="heading">

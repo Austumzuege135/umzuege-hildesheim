@@ -5,6 +5,7 @@ const Kontakt = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
     </Head>
     <div className="hero-head-kontakt">
       <div className="heading">

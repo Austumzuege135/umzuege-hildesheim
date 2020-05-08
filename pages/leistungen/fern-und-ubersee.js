@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const FernUndUebersee = () => (
   <div>
-    <Head></Head>
+    <Head>
+      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
+    </Head>
     <div className="hero-head-fernumzug">
       <div className="heading">
         <h1>Fern- und Überseeumzüge</h1>

@@ -5,6 +5,7 @@ const Post = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
     </Head>
     <div className="seperator">
       <h3>

@@ -38,6 +38,14 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <link href="/static/css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="/static/js/cookie.js"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.addEventListener('DOMContentLoaded', function () {
+              cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","change_preferences_selector":"#changePreferences","language":"de","website_name":"Aust Umzüge & Haushaltsauflösungen"});
+          });`,
+          }}
+        />
       </Head>
       <header>
         <h1 className="logo">
@@ -219,6 +227,10 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
         </div>
+        <script type="text/plain" cookie-consent="strictly-necessary"></script>
+        <script type="text/plain" cookie-consent="functionality"></script>
+        <script type="text/plain" cookie-consent="tracking"></script>
+        <script type="text/plain" cookie-consent="targeting"></script>
       </div>
     </div>
   );

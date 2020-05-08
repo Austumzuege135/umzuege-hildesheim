@@ -5,6 +5,7 @@ const Privatumzug = () => (
   <div>
     <Head>
       <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <meta name="description" content="" />
     </Head>
 
     <div className="hero-head-privatumzug">
