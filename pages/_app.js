@@ -219,10 +219,6 @@ function MyApp({ Component, pageProps }) {
             </div>
           </div>
         </div>
-        <script type="text/plain" cookie-consent="strictly-necessary"></script>
-        <script type="text/plain" cookie-consent="functionality"></script>
-        <script type="text/plain" cookie-consent="tracking"></script>
-        <script type="text/plain" cookie-consent="targeting"></script>
       </div>
     </div>
   );
