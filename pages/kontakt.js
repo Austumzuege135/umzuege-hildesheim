@@ -92,39 +92,40 @@ const Kontakt = () => (
           <input type="submit" id="form_button" />
         </div>
       </form>
-      <form name="contact" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact" />
-        <p>
-          <label className="form-input-label">
-            Name: <input className="form-input" type="text" name="name" />
-          </label>
-          <br />
-          <br />
-        </p>
-        <p>
-          <label className="form-input-label">
-            Email:
-            <input className="form-input" type="email" name="email" required />
-          </label>
-          <br />
-          <br />
-        </p>
-        <p>
-          <label className="form-input-label">
-            Message:
-            <br />
-            <br />
-            <textarea className="text-input" name="message" required></textarea>
-          </label>
-        </p>
-        <p>
-          <button type="submit">
-            <b>Send</b>
-          </button>
-        </p>
-      </form>
     </div>
   </div>
 );
 
 export default Kontakt;
+
+// <form name="contact" method="POST" data-netlify="true">
+// <input type="hidden" name="form-name" value="contact" />
+// <p>
+//   <label className="form-input-label">
+//     Name: <input className="form-input" type="text" name="name" />
+//   </label>
+//   <br />
+//   <br />
+// </p>
+// <p>
+//   <label className="form-input-label">
+//     Email:
+//     <input className="form-input" type="email" name="email" required />
+//   </label>
+//   <br />
+//   <br />
+// </p>
+// <p>
+//   <label className="form-input-label">
+//     Message:
+//     <br />
+//     <br />
+//     <textarea className="text-input" name="message" required></textarea>
+//   </label>
+// </p>
+// <p>
+//   <button type="submit">
+//     <b>Absenden</b>
+//   </button>
+// </p>
+// </form>
