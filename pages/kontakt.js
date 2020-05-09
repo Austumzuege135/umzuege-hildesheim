@@ -67,12 +67,12 @@ const Kontakt = () => (
           />
         </div>
         <div className="telephone">
-          <label for="name"></label>
+          <label for="nummer"></label>
           <input
             type="text"
             placeholder="Meine Nummer ist.."
-            name="telephone"
-            id="telephone_input"
+            name="nummer"
+            id="nummer"
             required
           />
         </div>

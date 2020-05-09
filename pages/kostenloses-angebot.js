@@ -71,16 +71,16 @@ const Kostenloses_Angebot = () => (
             required
           />
         </div>
-        <label for="old_adress"></label>
+        <label for="alte_adresse"></label>
         <input
           type="text"
           placeholder="Meine alte Adresse"
-          name="telephone"
+          name="alte_adresse"
           id="alte_adresse"
           required
         />
 
-        <label for="name"></label>
+        <label for="neue_adresse"></label>
         <input
           type="text"
           placeholder="Meine neue Adresse ist..."
@@ -88,12 +88,12 @@ const Kostenloses_Angebot = () => (
           id="adresse_neu"
           required
         />
-        <label for="name"></label>
+        <label for="sonstiges"></label>
         <input
           type="text"
           placeholder="Sonstige Informationen"
-          name="adresse_neu"
-          id="adresse_neu"
+          name="sonstiges"
+          id="sonstiges"
           required
         />
 
