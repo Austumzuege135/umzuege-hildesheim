@@ -88,7 +88,7 @@ const Kontakt = () => (
           ></textarea>
         </div>
         <div className="submit">
-          <input type="submit" id="form_button" />
+          <input type="submit" id="form_button" className="button" />
         </div>
       </form>
     </div>

@@ -75,7 +75,7 @@ const Kostenloses_Angebot = () => (
         <br />
         <br />
         <p>
-          <button type="submit">
+          <button type="submit" class="button">
             <b>Send</b>
           </button>
         </p>
