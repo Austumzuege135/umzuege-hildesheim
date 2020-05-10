@@ -45,13 +45,13 @@ const Kontakt = () => (
         name="Kontaktformular"
         data-netlify="true"
       >
-        <input type="hidden" name="form-name" value="contact" />
         <div className="name">
           <label for="name"></label>
           <input
             type="text"
             placeholder="Mein Name ist.."
             name="name1"
+            id="name_input"
             required
           />
         </div>
@@ -61,6 +61,7 @@ const Kontakt = () => (
             type="email"
             placeholder="Meine Email ist..."
             name="email1"
+            id="email_input"
             required
           />
         </div>
@@ -70,6 +71,7 @@ const Kontakt = () => (
             type="text"
             placeholder="Meine Nummer ist.."
             name="telephone1"
+            id="telephone_input"
             required
           />
         </div>
@@ -79,6 +81,7 @@ const Kontakt = () => (
           <textarea
             name="message1"
             placeholder="Ich würde gerne folgendes wissen.."
+            id="message_input"
             cols="30"
             rows="5"
             required
