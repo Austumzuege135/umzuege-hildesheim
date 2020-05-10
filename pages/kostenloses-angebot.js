@@ -39,70 +39,114 @@ const Kostenloses_Angebot = () => (
           <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
         </svg>
       </div>
-      <form method="POST" name="kostenloses-angebot" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
-        <div class="name">
-          <label for="name"></label>
-          <input
-            type="text"
-            placeholder="Mein Name ist.."
-            name="name"
-            id="name_input"
-            required
-          />
-        </div>
-        <div class="email">
-          <label for="email"></label>
-          <input
-            type="email"
-            placeholder="Meine Email ist..."
-            name="email"
-            id="email_input"
-            required
-          />
-        </div>
-        <div class="telephone">
-          <label for="name"></label>
-          <input
-            type="text"
-            placeholder="Meine Nummer ist.."
-            name="telephone"
-            id="telephone_input"
-            required
-          />
-        </div>
-        <label for="alte_adresse"></label>
-        <input
-          type="text"
-          placeholder="Meine alte Adresse"
-          name="alte_adresse"
-          id="alte_adresse"
-          required
-        />
-
-        <label for="neue_adresse"></label>
-        <input
-          type="text"
-          placeholder="Meine neue Adresse ist..."
-          name="adresse_neu"
-          id="adresse_neu"
-          required
-        />
-        <label for="sonstiges"></label>
-        <input
-          type="text"
-          placeholder="Sonstige Informationen"
-          name="sonstiges"
-          id="sonstiges"
-          required
-        />
-
-        <div class="submit">
-          <input type="submit" id="form_button" />
-        </div>
+        <p>
+          <label className="form-input-label">
+            Name: <input className="form-input" type="text" name="name" />
+          </label>
+          <br />
+          <br />
+        </p>
+        <p>
+          <label className="form-input-label">
+            Email:
+            <input className="form-input" type="email" name="email" required />
+          </label>
+          <br />
+          <br />
+        </p>
+        <p>
+          <label className="form-input-label">
+            Ihre Nummer:
+            <input className="form-input" type="text" name="telefon" />
+          </label>
+          <br />
+          <br />
+        </p>
+        <p>
+          <label className="form-input-label">
+            Message:
+            <br />
+            <br />
+            <textarea className="text-input" name="message" required></textarea>
+          </label>
+        </p>
+        <br />
+        <br />
+        <p>
+          <button type="submit">
+            <b>Send</b>
+          </button>
+        </p>
       </form>
     </div>
   </div>
 );
 
 export default Kostenloses_Angebot;
+
+{
+  /* <form method="POST" name="kostenloses-angebot" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact" />
+  <div class="name">
+    <label for="name"></label>
+    <input
+      type="text"
+      placeholder="Mein Name ist.."
+      name="name"
+      id="name_input"
+      required
+    />
+  </div>
+  <div class="email">
+    <label for="email"></label>
+    <input
+      type="email"
+      placeholder="Meine Email ist..."
+      name="email"
+      id="email_input"
+      required
+    />
+  </div>
+  <div class="telephone">
+    <label for="name"></label>
+    <input
+      type="text"
+      placeholder="Meine Nummer ist.."
+      name="telephone"
+      id="telephone_input"
+      required
+    />
+  </div>
+  <label for="alte_adresse"></label>
+  <input
+    type="text"
+    placeholder="Meine alte Adresse"
+    name="alte_adresse"
+    id="alte_adresse"
+    required
+  />
+
+  <label for="neue_adresse"></label>
+  <input
+    type="text"
+    placeholder="Meine neue Adresse ist..."
+    name="adresse_neu"
+    id="adresse_neu"
+    required
+  />
+  <label for="sonstiges"></label>
+  <input
+    type="text"
+    placeholder="Sonstige Informationen"
+    name="sonstiges"
+    id="sonstiges"
+    required
+  />
+
+  <div class="submit">
+    <input type="submit" id="form_button" />
+  </div>
+</form>; */
+}
