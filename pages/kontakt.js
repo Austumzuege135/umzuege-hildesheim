@@ -50,7 +50,7 @@ const Kontakt = () => (
           <input
             type="text"
             placeholder="Mein Name ist.."
-            name="name1"
+            name="nameContact"
             id="name_input"
             required
           />
@@ -60,7 +60,7 @@ const Kontakt = () => (
           <input
             type="email"
             placeholder="Meine Email ist..."
-            name="email1"
+            name="emailContact"
             id="email_input"
             required
           />
@@ -70,7 +70,7 @@ const Kontakt = () => (
           <input
             type="text"
             placeholder="Meine Nummer ist.."
-            name="telephone1"
+            name="telephoneContact"
             id="telephone_input"
             required
           />
@@ -79,7 +79,7 @@ const Kontakt = () => (
         <div className="message">
           <label for="message"></label>
           <textarea
-            name="message1"
+            name="message1Contact"
             placeholder="Ich würde gerne folgendes wissen.."
             id="message_input"
             cols="30"
