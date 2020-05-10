@@ -66,13 +66,13 @@ const Kontakt = () => (
             required
           />
         </div>
-        <div className="telephone">
-          <label for="telephone"></label>
+        <div className="tel">
+          <label for="tel"></label>
           <input
-            type="text"
+            type="tel"
             placeholder="Meine Nummer ist.."
-            name="telephone"
-            id="telephone_input"
+            name="tel"
+            id="tel_input"
             required
           />
         </div>
