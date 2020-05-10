@@ -43,7 +43,10 @@ const Kostenloses_Angebot = () => (
         <input type="hidden" name="form-name" value="kostenloses_angebot" />
         <p>
           <label className="form-input-label">
-            Name: <input className="form-input" type="text" name="name" />
+            Name:
+            <br />
+            <br />
+            <input className="form-input" type="text" name="name" required />
           </label>
           <br />
           <br />
@@ -51,6 +54,8 @@ const Kostenloses_Angebot = () => (
         <p>
           <label className="form-input-label">
             Email:
+            <br />
+            <br />
             <input className="form-input" type="email" name="email" required />
           </label>
           <br />
@@ -59,17 +64,89 @@ const Kostenloses_Angebot = () => (
         <p>
           <label className="form-input-label">
             Ihre Nummer:
-            <input className="form-input" type="text" name="telefon" />
+            <br />
+            <br />
+            <input className="form-input" type="text" name="telefon" required />
+          </label>
+          <br />
+          <br />
+        </p>
+
+        <p>
+          <label className="form-input-label">
+            Ihre alte Adresse inkl. Etage:
+            <br />
+            <br />
+            <input
+              className="form-input"
+              type="text"
+              name="alte_adresse"
+              required
+            />
+          </label>
+        </p>
+        <p>
+          <label className="form-input-label">
+            Gibt es hier einen Fahrstuhl?:&nbsp;&nbsp;
+            <input
+              className="form-input"
+              type="checkbox"
+              name="alte_adresse_fahrstuhl"
+            />
+          </label>
+          <br />
+          <br />
+        </p>
+        <br />
+        <br />
+        <p>
+          <label className="form-input-label">
+            Ihre neue Adresse inkl. Etage:
+            <br />
+            <br />
+            <input
+              className="form-input"
+              type="text"
+              name="neue_adresse"
+              required
+            />
+          </label>
+        </p>
+        <p>
+          <label className="form-input-label">
+            Gibt es hier einen Fahrstuhl?:&nbsp;&nbsp;
+            <input
+              className="form-input"
+              type="checkbox"
+              name="neue_adresse_fahrstuhl"
+            />
+          </label>
+          <br />
+          <br />
+          <br />
+          <br />
+        </p>
+        <p>
+          <label className="form-input-label">
+            Geplantes Umzugsdatum:
+            <br />
+            <br />
+            <input
+              className="form-input"
+              type="text"
+              name="datum"
+              placeholder="TT.MM.YYYY"
+            />
           </label>
           <br />
           <br />
         </p>
         <p>
           <label className="form-input-label">
-            Message:
+            Sonstiges:
             <br />
             <br />
-            <textarea className="text-input" name="message" required></textarea>
+            <textarea className="text-input" name="sonstiges"></textarea>
           </label>
         </p>
         <br />
@@ -85,68 +162,3 @@ const Kostenloses_Angebot = () => (
 );
 
 export default Kostenloses_Angebot;
-
-{
-  /* <form method="POST" name="kostenloses-angebot" data-netlify="true">
-  <input type="hidden" name="form-name" value="contact" />
-  <div class="name">
-    <label for="name"></label>
-    <input
-      type="text"
-      placeholder="Mein Name ist.."
-      name="name"
-      id="name_input"
-      required
-    />
-  </div>
-  <div class="email">
-    <label for="email"></label>
-    <input
-      type="email"
-      placeholder="Meine Email ist..."
-      name="email"
-      id="email_input"
-      required
-    />
-  </div>
-  <div class="telephone">
-    <label for="name"></label>
-    <input
-      type="text"
-      placeholder="Meine Nummer ist.."
-      name="telephone"
-      id="telephone_input"
-      required
-    />
-  </div>
-  <label for="alte_adresse"></label>
-  <input
-    type="text"
-    placeholder="Meine alte Adresse"
-    name="alte_adresse"
-    id="alte_adresse"
-    required
-  />
-
-  <label for="neue_adresse"></label>
-  <input
-    type="text"
-    placeholder="Meine neue Adresse ist..."
-    name="adresse_neu"
-    id="adresse_neu"
-    required
-  />
-  <label for="sonstiges"></label>
-  <input
-    type="text"
-    placeholder="Sonstige Informationen"
-    name="sonstiges"
-    id="sonstiges"
-    required
-  />
-
-  <div class="submit">
-    <input type="submit" id="form_button" />
-  </div>
-</form>; */
-}
