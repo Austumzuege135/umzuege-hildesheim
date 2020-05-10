@@ -39,57 +39,46 @@ const Kontakt = () => (
           <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
         </svg>
       </div>
-      <form
-        methodmethodmethod="POST"
-        // id="contact_form"
-        name="Kontaktformular"
-        data-netlify="true"
-      >
-        <div className="name">
-          <label for="name"></label>
-          <input
-            type="text"
-            placeholder="Mein Name ist.."
-            name="nameContact"
-            id="name_input"
-            required
-          />
-        </div>
-        <div className="email">
-          <label for="email"></label>
-          <input
-            type="email"
-            placeholder="Meine Email ist..."
-            name="emailContact"
-            id="email_input"
-            required
-          />
-        </div>
-        <div className="telephone">
-          <label for="telephone"></label>
-          <input
-            type="text"
-            placeholder="Meine Nummer ist.."
-            name="telephoneContact"
-            id="telephone_input"
-            required
-          />
-        </div>
-
-        <div className="message">
-          <label for="message"></label>
-          <textarea
-            name="message1Contact"
-            placeholder="Ich würde gerne folgendes wissen.."
-            id="message_input"
-            cols="30"
-            rows="5"
-            required
-          ></textarea>
-        </div>
-        <div className="submit">
-          <input type="submit" id="form_button" className="button" />
-        </div>
+      <form name="kontaktformular" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="kontaktformular" />
+        <p>
+          <label className="form-input-label">
+            Name: <input className="form-input" type="text" name="name" />
+          </label>
+          <br />
+          <br />
+        </p>
+        <p>
+          <label className="form-input-label">
+            Email:
+            <input className="form-input" type="email" name="email" required />
+          </label>
+          <br />
+          <br />
+        </p>
+        <p>
+          <label className="form-input-label">
+            Ihre Nummer:
+            <input className="form-input" type="text" name="telefon" />
+          </label>
+          <br />
+          <br />
+        </p>
+        <p>
+          <label className="form-input-label">
+            Message:
+            <br />
+            <br />
+            <textarea className="text-input" name="message" required></textarea>
+          </label>
+        </p>
+        <br />
+        <br />
+        <p>
+          <button type="submit" className="button">
+            <b>Send</b>
+          </button>
+        </p>
       </form>
     </div>
   </div>
