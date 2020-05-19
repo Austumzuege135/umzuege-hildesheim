@@ -52,7 +52,7 @@ const Navbar = ({ navLinks }) => {
                 }}
                 className="button"
               >
-                &nbsp;&nbsp;&nbsp;Kostenloses Angebot&nbsp;&nbsp;&nbsp;&nbsp;
+                Kostenloses Angebot
               </a>
             </Link>
           </li>
@@ -122,12 +122,12 @@ const Navbar = ({ navLinks }) => {
         }
 
         nav ul .button {
-            padding: 20px 10px;
+            padding: 20px 20px;
             background-color: #76282e;
             color: white;
             border-radius: 20px;
-            width: 200px;
-            text-align: center;
+            width: auto;
+
           }
 
         nav ul a {
