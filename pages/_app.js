@@ -1,7 +1,30 @@
 import Head from "next/head";
 import Link from "next/link";
+import Navbar from "../components/navigation/navigation";
 
 function MyApp({ Component, pageProps }) {
+  const navLinks = [
+    {
+      text: "Startseite",
+      path: "/",
+      key: "1",
+    },
+    {
+      text: "Leistungen",
+      path: "/leistungen",
+      key: "2",
+    },
+    {
+      text: "Ratgeber",
+      path: "/ratgeber",
+      key: "3",
+    },
+    {
+      text: "Kontakt",
+      path: "/kontakt",
+      key: "4",
+    },
+  ];
   return (
     <div>
       <Head>
@@ -39,63 +62,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#ffffff" />
         <link href="/static/css/style.css" rel="stylesheet" />
       </Head>
-      <header>
-        <h1 className="logo">
-          <Link href="/">
-            <a title="Startseite">
-              <img
-                className="logo-pic"
-                src="/static/img/logo.jpg"
-                alt="Logo Ihrer Umzugsfirma"
-              />
-            </a>
-          </Link>
-        </h1>
 
-        <input type="checkbox" id="nav-toggle" className="nav-toggle" />
+      <Navbar navLinks={navLinks} />
 
-        <nav>
-          <ul>
-            <li>
-              <Link href="/">
-                <a title="Startseite">Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/leistungen">
-                <a title="Unsere Leistungen für Umzüge und Haushaltsauflösungen">
-                  Leistungen
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/bewertungen">
-                <a title="Bewertungen unserer Kunden">Bewertungen</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/ratgeber">
-                <a title="Unser Ratgeber für Ihren Umzug">Ratgeber</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/kontakt">
-                <a title="Ihr Kontakt zu Ihrem Partner für Umzüge">Kontakt</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/kostenloses-angebot">
-                <a title="Ihr kostenloses Angebot" className="button">
-                  Kostenloses Angebot
-                </a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-        <label htmlFor="nav-toggle" className="nav-toggle-label">
-          <span></span>
-        </label>
-      </header>
       <div className="kontakt">
         <div className="wrapper">
           <b>
@@ -225,3 +194,44 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+{
+  /* <nav>
+<ul>
+  <li>
+    <Link href="/">
+      <a title="Startseite">Home</a>
+    </Link>
+  </li>
+  <li>
+    <Link href="/leistungen">
+      <a title="Unsere Leistungen für Umzüge und Haushaltsauflösungen">
+        Leistungen
+      </a>
+    </Link>
+  </li>
+  <li>
+    <Link href="/bewertungen">
+      <a title="Bewertungen unserer Kunden">Bewertungen</a>
+    </Link>
+  </li>
+  <li>
+    <Link href="/ratgeber">
+      <a title="Unser Ratgeber für Ihren Umzug">Ratgeber</a>
+    </Link>
+  </li>
+  <li>
+    <Link href="/kontakt">
+      <a title="Ihr Kontakt zu Ihrem Partner für Umzüge">Kontakt</a>
+    </Link>
+  </li>
+  <li>
+    <Link href="/kostenloses-angebot">
+      <a title="Ihr kostenloses Angebot" className="button">
+        Kostenloses Angebot
+      </a>
+    </Link>
+  </li>
+</ul>
+</nav> */
+}
