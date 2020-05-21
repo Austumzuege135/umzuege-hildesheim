@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
           content="Aust Umzüge & Haushaltsauflösungen ist Ihre verlässlicher Partner, wenn es rund um Umzüge geht"
         />
         <link
-          async
+          defer
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
           rel="stylesheet"
         />
@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/static/img/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <link href="/static/css/style.css" rel="stylesheet" />
+        <link href="/static/css/style.css" rel="stylesheet" async />
       </Head>
 
       <Navbar navLinks={navLinks} />

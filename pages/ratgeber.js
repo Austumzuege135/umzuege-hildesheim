@@ -64,7 +64,7 @@ const Ratgeber = () => (
       <br />
       <br />
       <Link href="/blog/post">
-        <a title="Checkliste für Ihren Umzug" class="button">
+        <a title="Checkliste für Ihren Umzug" className="button">
           Ihre Checkliste
         </a>
       </Link>

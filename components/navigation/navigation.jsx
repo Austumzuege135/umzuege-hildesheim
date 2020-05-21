@@ -11,26 +11,34 @@ const Navbar = ({ navLinks }) => {
         <div className="logo-small">
           <Link href="/">
             <a title="Startseite">
-              <img src="/static/img/logo.jpg" className="logo-small" />
+              <img
+                src="/static/img/logo.jpg"
+                className="logo-small"
+                alt="Logo Aust Umzuege"
+              />
             </a>
           </Link>
         </div>
+        <figure
+          onClick={() => {
+            setNavOpen(!navOpen);
+          }}
+        >
+          <RiMenu4Line fontSize="40px" />
+        </figure>
+
         <ul className={navOpen ? "active" : ""}>
-          <div className="logo-big">
+          <li>
             <Link href="/">
               <a title="Startseite">
-                <img src="/static/img/logo.jpg" className="logo-big" />
+                <img
+                  src="/static/img/logo.jpg"
+                  className="logo-big"
+                  alt="Logo Aust Umzuege"
+                />
               </a>
             </Link>
-          </div>
-          <figure
-            onClick={() => {
-              setNavOpen(!navOpen);
-            }}
-          >
-            <RiMenu4Line fontSize="40px" />
-          </figure>
-
+          </li>
           {navLinks.map((Links) => (
             <li>
               <Link href={Links.path} key={Links.key}>
@@ -74,6 +82,9 @@ const Navbar = ({ navLinks }) => {
             width 80px;
             margin: 0px auto;
             display: none;
+            position: fixed;
+            top: 2;
+            left: 40%;
         }
         nav {
           background: white;
@@ -83,6 +94,8 @@ const Navbar = ({ navLinks }) => {
           top: 0px;
           padding: 5px 0;
           z-index: 999;
+          font-size: 20px;
+
         }
 
 
@@ -102,14 +115,13 @@ const Navbar = ({ navLinks }) => {
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center;
-            max-width: 1040px;
+            max-width: 950px;
             margin: 0 auto;
         }
 
-        nav ul figure {
+        nav  figure {
           display: none;
           cursor: pointer;
-          padding-top: 10px;
         }
 
         nav ul li {
@@ -122,13 +134,11 @@ const Navbar = ({ navLinks }) => {
         }
 
         nav ul .button {
-            padding: 20px 20px;
-            background-color: #76282e;
-            color: white;
-            border-radius: 20px;
-            width: auto;
 
-          }
+          color: white;
+
+
+        }
 
         nav ul a {
           color: black;
@@ -150,7 +160,15 @@ const Navbar = ({ navLinks }) => {
           font-size: 20px;
         }
 
-        @media screen and (max-width: 759px) {
+        @media screen and (max-width: 949px) {
+
+          nav ul .button {
+            width: 180px;
+            color: white;
+            font-size: 18px;
+  
+  
+          }
 
             .logo-small {
                 width 80px;
@@ -162,14 +180,17 @@ const Navbar = ({ navLinks }) => {
             background: white;
             height: 80px;
         }
+        nav figure {
+          display: block;
+          cursor: pointer;
+
+
+        }
 
         .logo-big {
             display: none;
         }
-          nav ul figure {
-            display: block;
-            cursor: pointer;
-          }
+
           nav ul {
             height: 100%;
             width: 300px;
@@ -186,12 +207,13 @@ const Navbar = ({ navLinks }) => {
           nav ul.active {
             left: 0px;
           }
-          nav ul figure {
+          nav figure {
             -webkit-margin-start: 2px;
             margin-inline-start: 2px;
             position: fixed;
-            left: 9px;
-            top: 10px;
+            left: 15px;
+            top: 20px;
+            cursor: pointer;
           }
           nav ul li {
             width: 100%;

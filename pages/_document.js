@@ -13,8 +13,10 @@ class MyDocument extends Document {
           <script
             type="text/javascript"
             src="/static/javascript/cookie.js"
+            defer
           ></script>
           <script
+            defer
             dangerouslySetInnerHTML={{
               __html: `document.addEventListener('DOMContentLoaded', function () {
               cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","change_preferences_selector":"#changePreferences","language":"de","website_name":"Aust Umzüge & Haushaltsauflösungen"});
@@ -29,9 +31,13 @@ class MyDocument extends Document {
             type="text/plain"
             cookie-consent="strictly-necessary"
           ></script>
-          <script type="text/plain" cookie-consent="functionality"></script>
-          <script type="text/plain" cookie-consent="tracking"></script>
-          <script type="text/plain" cookie-consent="targeting"></script>
+          <script
+            type="text/plain"
+            cookie-consent="functionality"
+            defer
+          ></script>
+          <script type="text/plain" cookie-consent="tracking" defer></script>
+          <script type="text/plain" cookie-consent="targeting" defer></script>
         </body>
       </Html>
     );

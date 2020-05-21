@@ -24,12 +24,20 @@ html {
   color: white;
   padding: 20px 10px;
   font-style: italic;
-  margin-top: 150px;
+  margin-top: 100px;
 
   a {
     color: white;
     margin: 5px 15px;
   }
+}
+
+.button {
+  padding: 20px 20px;
+  background-color: #76282e;
+  color: white;
+  border-radius: 20px;
+  width: auto;
 }
 
 .seperator {
