@@ -12,6 +12,12 @@ html {
   display: inline-block;
 }
 
+@media screen and (max-width: 650px) {
+  .hide {
+    display: none;
+  }
+}
+
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
@@ -632,6 +638,16 @@ html {
 
 @media screen and (max-width: 650px) {
   .content {
+    padding: 20px;
+  }
+}
+
+.content .holder {
+  padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .content .holder {
     padding: 5px;
   }
 }

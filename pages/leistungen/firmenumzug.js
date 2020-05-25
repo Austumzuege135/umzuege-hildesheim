@@ -4,7 +4,12 @@ import Head from "next/head";
 const Firmenumzug = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Ihre Firma wechselt die Räumlichkeiten? Sie Fragen sich, ob alles
+        Reibungslos funktioniert? Mit uns ganz sicher; kümmern Sie sich um Ihr
+        Business, wir kümmern uns um den Rest. Ihr Firmenumzug in
+        professionellen Händen.
+      </title>
       <meta
         name="description"
         content="Ihre Firma soll schnell und reibungslos den Standort Wechseln? Gerne unterbreiten wir Ihnen für Ihren Firmenumzug Ihr konkretes und kostenloses Angebot, damit Sie sich um Ihr Business kümmern können!"

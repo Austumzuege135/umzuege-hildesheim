@@ -4,7 +4,10 @@ import Link from "next/link";
 const FernUndUebersee = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Sie planen einen Umzug in die Ferne? Auch hier sind wir für Sie da. Wir
+        machen alles möglich, auch Ihren Fernumzug
+      </title>
       <meta
         name="description"
         content="Es soll weiter weg gehen? Fernumzüge und Überseeumzüge sind besondere Herausforderungen, aber wir regeln auch das für Sie!"

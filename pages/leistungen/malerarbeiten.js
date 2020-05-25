@@ -4,7 +4,11 @@ import Head from "next/head";
 const Malerarbeiten = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Die Wände in Ihrer alten Wohnung streichen, oder Ihrer neuen Wohnung den
+        letzten schliff geben? Auch darum kümmern wir uns. Überlassen Sie uns
+        die Malerarbeiten vor und nach dem Umzug.
+      </title>
       <meta
         name="description"
         content="Ärger mit den Wänden in Ihrer alten Wohnung? Auch das übernehmen wir für Sie! Sämtliche Malerarbeiten und Ausbesserungen der Wände übernehmen wir gerne!"

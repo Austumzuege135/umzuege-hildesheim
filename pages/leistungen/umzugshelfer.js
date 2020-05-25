@@ -4,7 +4,10 @@ import Head from "next/head";
 const Umzugshelfer = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Sie benötigen lediglich ein paar helfende Hände für Ihren Umzug? Unsere
+        Umzugshelfer stehen Ihnen verlässlich mit Rat und Tat zur Seite.
+      </title>
       <meta
         name="description"
         content="Sie brauchen lediglich ein paar helfende Hände bei Ihrem Umzug? Gerne leihen wir Ihnen diese!"

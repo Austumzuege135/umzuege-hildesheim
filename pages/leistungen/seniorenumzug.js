@@ -4,7 +4,11 @@ import Head from "next/head";
 const Seniorenumzug = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Ein Umzug ist oft stress pur, gerade wenn es um einen Seniorenumzug ggf.
+        sogar ins Pflegeheim geht. Wir kümmern uns um das rundum Paket und
+        nehmen Ihnen den Stress ab.
+      </title>
       <meta
         name="description"
         content="Ihre Eltern wollen umziehen, Sie wissen jedoch nicht wer Ihnen dabei helfen soll? Gerne übernehmen wir Ihre liebsten für Sie."

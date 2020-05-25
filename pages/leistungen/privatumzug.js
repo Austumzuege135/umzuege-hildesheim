@@ -4,7 +4,11 @@ import Link from "next/link";
 const Privatumzug = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Umzug mit der Familie kann sehr stressig sein, lassen Sie uns den Stress
+        für Ihren Privatumzug abnehmen und entspannen Sie sich in Ihrem neuen
+        Zuhause
+      </title>
       <meta
         name="description"
         content="Sie möchten Ihren persöhnlichen Haushalt an einen anderen Ort verlagern? Für Ihren Privatumzug unterbreiten wir Ihnen gerne Ihr kostenloses Angebot!"

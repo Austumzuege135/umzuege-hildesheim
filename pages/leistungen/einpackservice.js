@@ -4,7 +4,12 @@ import Head from "next/head";
 const Einpackservice = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Einpacken und Auspacken Ihrer Gegenstände ist oft mit sehr viel Mühe
+        verbunden. Alles muss sicher verstaut und geplant werden. Da wir es eh
+        schon schleppen werden, packen wir es Ihnen aber auch gerne Fachgerecht
+        ein.
+      </title>
       <meta
         name="description"
         content="Sie haben gar keine Lust auf die Vorbereitung für Ihren Umzug? Gerne helfen wir Ihnen bereits beim verpacken Ihrer Habseligkeiten, holen Sie sich Ihr kostenloses Angebot für das rundum sorglos Paket"

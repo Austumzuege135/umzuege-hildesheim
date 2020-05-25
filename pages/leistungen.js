@@ -4,7 +4,11 @@ import Link from "next/link";
 const Leistungen = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Ihr Umzugsunternehmen und verlässlicher Partner rund um unsere
+        Leistungen. Umzüge, Haushaltsauflösungen, Entrümpelungen und vieles
+        mehr.
+      </title>
       <meta
         name="description"
         content="Unsere Leistungen rund um das Thema Umzug und Haushaltsauflösung. Sie finden Ihre spezifische Leistung nicht? Rufen Sie uns an. Wetten wir erledigen es trotzdem?"

@@ -1,12 +1,14 @@
 import Head from "next/head";
-import Posts from "../components/blog-items/blog-items.component";
-import fetch from "isomorphic-unfetch";
+
 import Link from "next/link";
 
 const Ratgeber = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Unser Ratgeber, kostenlose Informationen rund um das Thema Umzug. Woran
+        muss man vor und nach einem Umzug denken?
+      </title>
       <meta
         name="description"
         content="Wir bieten Ihnen nicht nur die Möglichkeit eines kostenlosen Angebots. Wir helfen Ihnen auch kostenlos mit Ihren Fragen rund um das Thema Umzug!"

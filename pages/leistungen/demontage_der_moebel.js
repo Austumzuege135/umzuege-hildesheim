@@ -4,7 +4,10 @@ import Head from "next/head";
 const Demontage = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Sie haben keine Zeit sich vor dem Umzug um die Demontage und nach dem
+        Umzug die Montage Ihrer Möbel zu kümmern? Gerne helfen wir Ihnen hier.
+      </title>
       <meta
         name="description"
         content="Nicht nur das verpacken Ihrer Gegenstände übernehmen wir gerne für Sie, auch den Abbau und Aufbau Ihrer Möbel können wir für Sie erledigen"

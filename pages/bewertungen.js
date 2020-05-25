@@ -6,11 +6,13 @@ const Bewertungen = () => (
   <div>
     <Head>
       <title>
-        Aust Umzüge und Haushaltsauflösungen. Professionell und schnell.
+        Bewertungen unserer bisherigen Kunden rund um die Themen Umzug,
+        Haushaltsauflösungen, Entrümpelungen und mehr. Ihr professionelles
+        Umzugsunternehmen in Hildesheim un Umgebung
       </title>
       <meta
         name="description"
-        content="Unsere bisherigen Kunden für Umzuüge und Haushaltsauflösungen waren so nett und haben uns Feedback gegeben. Überzeugen Sie sich selbst von usnerer Qualität."
+        content="Unsere bisherigen Kunden für Umzüge und Haushaltsauflösungen waren so nett und haben uns Feedback gegeben. Überzeugen Sie sich selbst von usnerer Qualität."
       />
     </Head>
 

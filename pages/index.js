@@ -4,7 +4,10 @@ import Link from "next/link";
 const Home = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Umziehen ohne Stress. Aust Umzüge und Haushaltsauflösungen - Ihr Partner
+        rund um alles zum Thema Umzüge und Haushaltsauflösungen
+      </title>
       <meta
         name="description"
         content="Aus Umzüge und Haushaltsauflösungen. Ihr Partner zum Thema Umzüge und Haushaltsauflösungen in Hildesheim und Region."
@@ -35,7 +38,7 @@ const Home = () => (
       <div className="wrapper">
         <div className="card">
           <div className="holder">
-            <h2>Über Uns</h2>
+            <h2>Umzüge und Haushaltsauflösungen</h2>
             <br />
             <h3>Wir realisieren Ihren Umzug in Hildesheim und Umgebung</h3>
             <br />

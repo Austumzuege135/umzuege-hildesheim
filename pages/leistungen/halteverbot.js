@@ -4,7 +4,11 @@ import Link from "next/link";
 const Halteverbot = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Bei jedem Umzug gibt es viele Dinge zu beachten. Benötigen Sie Kartons?
+        Gibt es ausreichend Parkmöglichkeiten? Benötigen Sie eventuell ein
+        Halteverbot? Gerne helfen wir Ihnen beim Beantragen.
+      </title>
       <meta
         name="description"
         content="Bei einem Umzug gibt es allerlei zu beachten. Parkmöglichkeiten sind oft ein unterschätzten Thema, also klären Sie rechtzeitig, ob Sie ein Halteverbot benötigen!"

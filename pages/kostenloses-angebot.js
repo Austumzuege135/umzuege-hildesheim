@@ -4,7 +4,10 @@ import Link from "next/link";
 const Kostenloses_Angebot = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Sie benötigen ein Angebot für Ihren Umzug oder andere Dienstleistungen
+        rund um das Thema Möbel? Holen Sie es sich hier kostenlos!
+      </title>
       <meta
         name="description"
         content="Unser kostenloses Angebot für Ihren Umzug oder Ihre Haushaltsauflösung. Holen Sie sich Ihr Angebot für Ihr rundum sorglos Paket für Ihren Umzug."
@@ -71,7 +74,6 @@ const Kostenloses_Angebot = () => (
           <br />
           <br />
         </p>
-
         <p>
           <label className="form-input-label">
             Ihre alte Adresse inkl. Etage:
@@ -151,6 +153,22 @@ const Kostenloses_Angebot = () => (
         </p>
         <br />
         <br />
+        <label>
+          <input
+            type="checkbox"
+            id="DSGVO"
+            name="DSGVO"
+            value="Bool"
+            required
+          ></input>{" "}
+          Ich habe die{" "}
+          <Link href="/rechtliches/datenschutz">
+            <a title="Datenschutzerklärung">Datenschutzerklärung</a>
+          </Link>{" "}
+          gelesen und akzeptiert.
+        </label>
+        <br></br>
+        <br /> <br />
         <p>
           <button type="submit" className="button">
             <b>Send</b>

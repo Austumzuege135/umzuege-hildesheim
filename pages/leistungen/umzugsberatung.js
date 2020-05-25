@@ -4,7 +4,10 @@ import Head from "next/head";
 const Umzugsberatung = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Unsere Beratung rund um das Thema Umzug. Rufen Sie uns an und wir stehen
+        Ihnen Rede und Antwort rund um Ihre Fragen.
+      </title>
       <meta
         name="description"
         content="Sie haben Fragen rund um Ihren Umzug? Wir stehen nicht nur mit Tat sonder auch mit Rat zur Seite!"

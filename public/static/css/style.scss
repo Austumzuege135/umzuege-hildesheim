@@ -13,6 +13,12 @@ html {
   display: inline-block;
 }
 
+.hide {
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
+}
+
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
@@ -520,12 +526,15 @@ html {
   padding: 10px;
 
   @media screen and (max-width: 650px) {
-    padding: 5px;
+    padding: 20px;
   }
 
-  // .holder {
-  //   padding: 10px;
-  // }
+  .holder {
+    padding: 20px;
+    @media screen and (max-width: 650px) {
+      padding: 5px;
+    }
+  }
 
   .card {
     display: grid;

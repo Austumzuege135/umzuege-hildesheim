@@ -4,7 +4,10 @@ import Link from "next/link";
 const Kontakt = () => (
   <div>
     <Head>
-      <title>Aust Umzüge und Haushaltsauflösungen</title>
+      <title>
+        Hier kontaktieren Sie Ihr professionelles Umzugsunternehmen bei etwaigen
+        Fragen.
+      </title>
       <meta
         name="description"
         content="Sie haben Fragen zu unseren Dienstleistungen? Oder sind auf der Suche nach einem Service den wir nicht auf unserer Webseite haben? Schreiben Sie uns und wir geben unser Bestes Ihnen trotzdem zu helfen."
@@ -74,6 +77,22 @@ const Kontakt = () => (
         </p>
         <br />
         <br />
+        <label>
+          <input
+            type="checkbox"
+            id="DSGVO"
+            name="DSGVO"
+            value="Bool"
+            required
+          ></input>{" "}
+          Ich habe die{" "}
+          <Link href="/rechtliches/datenschutz">
+            <a title="Datenschutzerklärung">Datenschutzerklärung</a>
+          </Link>{" "}
+          gelesen und akzeptiert.
+        </label>
+        <br></br>
+        <br /> <br />
         <p>
           <button type="submit" className="button">
             <b>Send</b>
@@ -86,34 +105,13 @@ const Kontakt = () => (
 
 export default Kontakt;
 
-// <form name="contact" method="POST" data-netlify="true">
-// <input type="hidden" name="form-name" value="contact" />
-// <p>
-//   <label className="form-input-label">
-//     Name: <input className="form-input" type="text" name="name" />
-//   </label>
-//   <br />
-//   <br />
-// </p>
-// <p>
-//   <label className="form-input-label">
-//     Email:
-//     <input className="form-input" type="email" name="email" required />
-//   </label>
-//   <br />
-//   <br />
-// </p>
-// <p>
-//   <label className="form-input-label">
-//     Message:
-//     <br />
-//     <br />
-//     <textarea className="text-input" name="message" required></textarea>
-//   </label>
-// </p>
-// <p>
-//   <button type="submit">
-//     <b>Absenden</b>
-//   </button>
-// </p>
-// </form>
+{
+  /* <label>
+{" "}
+Ich habe die{" "}
+<Link href="datenschutz">
+  <a title="Datenschutzerklärung">Datenschutzerklärung</a> gelesen
+  und akzeptiert.
+</Link>
+</label> */
+}
