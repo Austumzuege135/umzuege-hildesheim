@@ -24,6 +24,10 @@ html {
   padding: 10px;
 }
 
+p {
+  text-align: justify;
+}
+
 .kontakt {
   background-color: #76282e;
   color: white;
@@ -667,7 +671,7 @@ html {
 }
 
 .content .angebot {
-  text-align: center;
+  text-align: justify;
   padding: 50px;
   font-size: 2rem;
 }
@@ -703,7 +707,7 @@ html {
 }
 
 .leistungen {
-  text-align: center;
+  text-align: justify;
 }
 
 .leistungen .button {
@@ -774,7 +778,7 @@ html {
 
 .feedback {
   min-height: 50vh;
-  text-align: center;
+  text-align: justify;
   padding: 50px 0px;
 }
 
@@ -827,7 +831,7 @@ html {
 .customers {
   background-color: white;
   min-height: 50vh;
-  text-align: center;
+  text-align: justify;
   padding: 50px 0;
 }
 
@@ -836,16 +840,18 @@ html {
   font-size: 28px;
   margin-top: 50px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .customers h3 {
   font-size: 24px;
   color: black;
+  text-align: center;
 }
 
 .customers p {
   font-size: 20px;
-  text-align: left;
+  text-align: justify;
   margin: 10px 10px;
   padding: 10px;
   color: black;
